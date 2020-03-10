@@ -7,4 +7,7 @@
     <string name="or">or</string>
     <string name="login">LOGIN</string>
     <string name="register">Register</string>
+    <string name="facebook_login">facebook_login</string>
+    <string name="twitter_logo">twitter_logo</string>
+    <string name="google_icon">google_icon</string>
 </resources>

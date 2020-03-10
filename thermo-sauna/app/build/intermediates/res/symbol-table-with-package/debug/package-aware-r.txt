@@ -670,6 +670,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable facebook_logo
+drawable google_logo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
@@ -687,6 +689,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable twitter_logo
 font annie_use_your_telescope
 id ALT
 id CTRL
@@ -781,8 +784,10 @@ id edit_query
 id end
 id expand_activities_button
 id expanded_menu
+id facebookicon
 id forever
 id gone
+id googleicon
 id group_divider
 id groups
 id home
@@ -870,6 +875,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id twittericon
 id unchecked
 id uniform
 id up
