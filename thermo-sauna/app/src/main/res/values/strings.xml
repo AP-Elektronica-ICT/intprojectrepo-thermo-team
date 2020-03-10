@@ -13,4 +13,7 @@
     <string name="repeat_password">Repeat password</string>
     <string name="e_mail">E-mail</string>
     <string name="phone_number">Phone number</string>
+    <string name="by_creating_an_accoung_you_agree_to_our_terms_and_conditions_amp_privacy_policy"><![CDATA[By creating an accoung you agree to our Terms and Conditions & Privacy Policy]]></string>
+    <string name="submit">Submit</string>
+    <string name="already_have_an_account">Already Have an account</string>
 </resources>

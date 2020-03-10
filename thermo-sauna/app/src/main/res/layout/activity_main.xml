@@ -35,29 +35,31 @@
             android:id="@+id/EmailRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:hint="@string/e_mail"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
 
             />
+
         <EditText
             android:id="@+id/PhoneRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:hint="@string/phone_number"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
-
-            />
+            tools:ignore="TextFields" />
 
 
         <EditText
             android:id="@+id/PasswordRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/password"
             android:textColorHint="@color/black"
             android:inputType="textPassword"
@@ -67,7 +69,7 @@
             android:id="@+id/PasswordRepeatRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/repeat_password"
             android:textColorHint="@color/black"
             android:inputType="textPassword"
@@ -78,10 +80,27 @@
             android:id="@+id/Forgot_passw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:text="already have an account?"
-            android:textColor="#FFFFFF"/>
+            android:layout_marginTop="10dp"
+            android:text="@string/by_creating_an_accoung_you_agree_to_our_terms_and_conditions_amp_privacy_policy"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/submit"/>
+
+        <TextView
+            android:id="@+id/AlreadyHaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/already_have_an_account"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"/>
 
 
     </LinearLayout>
