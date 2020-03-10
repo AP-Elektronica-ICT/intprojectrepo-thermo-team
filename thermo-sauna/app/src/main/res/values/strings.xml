@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="thermo_sauna">Thermo-Sauna</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="or">or</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
 </resources>

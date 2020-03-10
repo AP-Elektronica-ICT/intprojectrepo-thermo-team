@@ -11,11 +11,11 @@
 9-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
 12-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:9-43
@@ -25,26 +25,38 @@
 17-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.app.vinnie.myapplication.Register" />
-21-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:9-55
-21-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:19-43
-22        <activity android:name="com.app.vinnie.myapplication.MainActivity" >
-22-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:17-69
-24-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:17-77
-26-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29    </application>
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
+20-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-59
+20-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:19-47
+21        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
+21-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-52
+21-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-49
+22        <activity android:name="com.app.vinnie.myapplication.Register" />
+22-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-46
+22-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-43
+23        <activity android:name="com.app.vinnie.myapplication.Login" >
+23-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-23:20
+23-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-40
+24            <intent-filter>
+24-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:13-21:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:17-69
+25-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:17-77
+27-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:27-74
+28            </intent-filter>
+29        </activity>
 30
-31</manifest>
+31        <meta-data
+31-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-27:57
+32            android:name="preloaded_fonts"
+32-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:13-43
+33            android:resource="@array/preloaded_fonts" />
+33-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:13-54
+34    </application>
+35
+36</manifest>
