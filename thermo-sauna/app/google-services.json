@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "419518550867",
+    "firebase_url": "https://sauna-thermo.firebaseio.com",
+    "project_id": "sauna-thermo",
+    "storage_bucket": "sauna-thermo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419518550867:android:4e7eb8cb8301bea5ef87a6",
+        "android_client_info": {
+          "package_name": "com.app.vinnie.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419518550867-qoehddnoh96a8iiisq0msbnkue6cj9kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD66q2OqUOOjmUsOXF2HILOEn488N3ZvJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419518550867-qoehddnoh96a8iiisq0msbnkue6cj9kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

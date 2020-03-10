@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Tue Mar 10 16:20:14 CET 2020
 base.0=C\:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+=======
+#Tue Mar 10 16:16:42 CET 2020
+base.0=D\:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+>>>>>>> master
 path.0=classes.dex
 renamed.0=classes.dex
