@@ -451,12 +451,14 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_web_client_id" translatable="false">419518550867-qoehddnoh96a8iiisq0msbnkue6cj9kb.apps.googleusercontent.com</string>
+    <string name="facebook_login">facebook_login</string>
     <string name="firebase_database_url" translatable="false">https://sauna-thermo.firebaseio.com</string>
     <string name="forget_your_password">Forget your password?</string>
     <string name="gcm_defaultSenderId" translatable="false">419518550867</string>
     <string name="google_api_key" translatable="false">AIzaSyD66q2OqUOOjmUsOXF2HILOEn488N3ZvJs</string>
     <string name="google_app_id" translatable="false">1:419518550867:android:4e7eb8cb8301bea5ef87a6</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD66q2OqUOOjmUsOXF2HILOEn488N3ZvJs</string>
+    <string name="google_icon">google_icon</string>
     <string name="google_storage_bucket" translatable="false">sauna-thermo.appspot.com</string>
     <string name="login">LOGIN</string>
     <string name="or">or</string>
@@ -466,6 +468,7 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="thermo_sauna">Thermo-Sauna</string>
+    <string name="twitter_logo">twitter_logo</string>
     <string name="username">Username</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

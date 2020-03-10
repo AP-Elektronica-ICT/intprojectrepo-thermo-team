@@ -10,4 +10,7 @@
     <string name="facebook_login">facebook_login</string>
     <string name="twitter_logo">twitter_logo</string>
     <string name="google_icon">google_icon</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_number">Phone number</string>
 </resources>

@@ -687,10 +687,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-<<<<<<< HEAD
-drawable facebook_logo
-drawable google_logo
-=======
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -710,9 +706,10 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable facebook_logo
+drawable google_logo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
->>>>>>> master
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
@@ -975,7 +972,6 @@ layout abc_tooltip
 layout activity_forget_password
 layout activity_login
 layout activity_main
-layout activity_register
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -1036,12 +1032,14 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string facebook_login
 string firebase_database_url
 string forget_your_password
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_icon
 string google_storage_bucket
 string login
 string or
@@ -1051,6 +1049,7 @@ string register
 string search_menu_title
 string status_bar_notification_info_overflow
 string thermo_sauna
+string twitter_logo
 string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -4,32 +4,7 @@
             "outputFile": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\eb8745ae665b4114ed49146190930fa3\\jetified-play-services-basement-17.0.0\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "166",
-                        "endOffsets": "417"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3688",
-                        "endColumns": "166",
-                        "endOffsets": "3850"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -46,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\3d429ad93701397c0f3effdd7e40158e\\play-services-base-17.0.0\\res\\values-zh-rHK\\values.xml",
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\dc8c556056bc2430dbdbbfc74baae2d4\\core-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5059",
+                        "endColumns": "100",
+                        "endOffsets": "5155"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\3d429ad93701397c0f3effdd7e40158e\\play-services-base-17.0.0\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -63,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\dc8c556056bc2430dbdbbfc74baae2d4\\core-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\09305d873edc506310563c5129bea36f\\jetified-play-services-basement-17.0.0\\res\\values-zh-rHK\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "166",
+                        "endOffsets": "417"
                     },
                     "to": {
-                        "startLines": "48",
+                        "startLines": "37",
                         "startColumns": "4",
-                        "startOffsets": "5059",
-                        "endColumns": "100",
-                        "endOffsets": "5155"
+                        "startOffsets": "3688",
+                        "endColumns": "166",
+                        "endOffsets": "3850"
                     }
                 }
             ]
