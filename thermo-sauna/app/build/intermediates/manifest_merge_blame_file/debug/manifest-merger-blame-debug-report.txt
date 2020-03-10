@@ -11,7 +11,7 @@
 9-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:5-28:19
+11-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:5-29:19
 12        android:allowBackup="true"
 12-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -26,38 +26,38 @@
 18        android:supportsRtl="true"
 18-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-40
+20        android:theme="@style/Theme.AppCompat.NoActionBar" >
+20-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-59
 21        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
-21-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-59
-21-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:19-47
+21-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-59
+21-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-47
 22        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
-22-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-52
-22-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-49
+22-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-52
+22-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-49
 23        <activity android:name="com.app.vinnie.myapplication.Register" />
-23-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-46
-23-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-43
+23-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-46
+23-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-43
 24        <activity android:name="com.app.vinnie.myapplication.Login" >
-24-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-23:20
-24-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-40
+24-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-24:20
+24-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-40
 25            <intent-filter>
-25-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:13-21:29
+25-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:13-22:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:17-69
-26-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:25-66
+26-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:17-69
+26-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:17-77
-28-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:27-74
+28-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:17-77
+28-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:27-74
 29            </intent-filter>
 30        </activity>
 31
 32        <meta-data
-32-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-27:57
+32-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:9-28:57
 33            android:name="preloaded_fonts"
-33-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:13-43
+33-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:13-43
 34            android:resource="@array/preloaded_fonts" />
-34-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:13-54
+34-->D:\AP\2eBach\InternationalProject\SaunaApp\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:28:13-54
 35    </application>
 36
 37</manifest>
