@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Login"
     android:background="@drawable/background">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -50,7 +50,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/Username"
+            android:id="@+id/UsernameLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username"
@@ -61,25 +61,24 @@
             />
 
         <EditText
-            android:id="@+id/Password"
+            android:id="@+id/PasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/password"
             android:textColorHint="@color/black"
-            android:inputType="textPassword"
+            android:inputType="textPassword" />
 
-            />
+
 
         <TextView
             android:id="@+id/Forgot_passw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
 
             android:text="@string/forget_your_password"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:onClick="forget"/>
 
 
     </LinearLayout>
@@ -108,7 +107,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="@string/register" />
+            android:text="@string/register"
+            android:onClick="Register"/>
 
 
     </LinearLayout>
