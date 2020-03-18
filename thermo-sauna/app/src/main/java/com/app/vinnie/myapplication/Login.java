@@ -37,6 +37,12 @@ public class Login extends AppCompatActivity {
         mLoginbtn = findViewById(R.id.Login_button);
         //progressbar = findViewById(R.id.progressBar)
 
+// voor als ge al ingelogd is --> direct naar mainactivity
+        if (mAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            finish();
+
+        }
 
         mLoginbtn.setOnClickListener(new View.OnClickListener() {
             @Override

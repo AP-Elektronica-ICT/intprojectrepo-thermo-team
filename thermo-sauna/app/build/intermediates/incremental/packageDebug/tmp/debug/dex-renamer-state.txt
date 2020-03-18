@@ -1,4 +1,10 @@
-#Wed Mar 18 01:13:05 CET 2020
-base.0=C\:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Mar 18 10:17:43 CET 2020
+path.2=classes2.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=C\:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
+base.1=C\:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
