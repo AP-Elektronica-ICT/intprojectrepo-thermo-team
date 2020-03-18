@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5258630c60642b8c4be3dfbbb03d9203\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:21:1-31:12
@@ -33,15 +34,17 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\phil
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9c0bdf0201e31c00748ce49dc6fff07c\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ac18fe2e75a2787d2e391d8593829a7a\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\829eeaf4e29ab34748c61dde9699c893\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:21:1-53:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c5cad79fed97e2cd23701efd1eedb7a6\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3a4968f1a0653083b07f66dfe10030d0\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e23ed541f8228975cb7801b7386b99a6\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5fde6acedfbce65f693963376a73933b\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -49,40 +52,40 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\phili\.gradl
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4b53d506eef53d2f7cc2227f123f757b\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1d6395085da05653bf51ce13b6ac92a9\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc8c556056bc2430dbdbbfc74baae2d4\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2b53143ebf0101f7fbbe01c5eb0c038\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ea06e667ca94ac150edc826bc6d4a962\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a589716d56919231af62c200ab0d71ed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\be927c621113ab466a8a55e744114bab\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ebb04bd06e6d7f26f5e680fcbb934ebb\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6c67ab5e49520a38da5a017176456049\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c99e4170190da1cfc49c7a76eb4d4c91\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4116a7ad2494cfd434d9158ebf6e8192\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1dd23a4072c15289dfa2bb4368218d36\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7ef12ee7eff7eb39de4a1eaee5402b44\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:11-69
@@ -103,7 +106,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.3] C:
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-28:19
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5258630c60642b8c4be3dfbbb03d9203\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5258630c60642b8c4be3dfbbb03d9203\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:5-29:19
@@ -180,42 +185,56 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gr
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-59
+activity#com.app.vinnie.myapplication.SaunaList
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-56
+	android:name
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-44
+activity#com.app.vinnie.myapplication.Settings
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-46
+	android:name
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-43
+activity#com.app.vinnie.myapplication.Profile
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-45
+	android:name
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-42
 activity#com.app.vinnie.myapplication.Register
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-55
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-46
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-43
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-43
 activity#com.app.vinnie.myapplication.MainActivity
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-50
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-50
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-47
 activity#com.app.vinnie.myapplication.ForgetPassword
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-52
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-52
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-49
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-49
 activity#com.app.vinnie.myapplication.Login
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-40
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-27:57
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:28:9-30:57
 	android:resource
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:13-54
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:30:13-54
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:13-43
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:13-43
 uses-sdk
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5258630c60642b8c4be3dfbbb03d9203\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5258630c60642b8c4be3dfbbb03d9203\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:24:5-26:41
@@ -274,14 +293,14 @@ MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\phili\.gradle\caches\tra
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9c0bdf0201e31c00748ce49dc6fff07c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ac18fe2e75a2787d2e391d8593829a7a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ac18fe2e75a2787d2e391d8593829a7a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\829eeaf4e29ab34748c61dde9699c893\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\829eeaf4e29ab34748c61dde9699c893\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:24:5-26:41
@@ -292,6 +311,10 @@ MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\c
 MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c5cad79fed97e2cd23701efd1eedb7a6\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c5cad79fed97e2cd23701efd1eedb7a6\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3a4968f1a0653083b07f66dfe10030d0\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3a4968f1a0653083b07f66dfe10030d0\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e23ed541f8228975cb7801b7386b99a6\activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -306,12 +329,12 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1d6395085da05653bf51ce13b6ac92a9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc8c556056bc2430dbdbbfc74baae2d4\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc8c556056bc2430dbdbbfc74baae2d4\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -320,22 +343,22 @@ MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gra
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2b53143ebf0101f7fbbe01c5eb0c038\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ea06e667ca94ac150edc826bc6d4a962\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ea06e667ca94ac150edc826bc6d4a962\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a589716d56919231af62c200ab0d71ed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a589716d56919231af62c200ab0d71ed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\be927c621113ab466a8a55e744114bab\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\be927c621113ab466a8a55e744114bab\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ebb04bd06e6d7f26f5e680fcbb934ebb\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ebb04bd06e6d7f26f5e680fcbb934ebb\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6c67ab5e49520a38da5a017176456049\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6c67ab5e49520a38da5a017176456049\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\72ae2eb340e8c3ccffc2edc6e3891272\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a1093446df7cba2775d09dec638964f2\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c99e4170190da1cfc49c7a76eb4d4c91\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c99e4170190da1cfc49c7a76eb4d4c91\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4116a7ad2494cfd434d9158ebf6e8192\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
