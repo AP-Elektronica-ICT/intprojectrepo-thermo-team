@@ -1531,6 +1531,7 @@ id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id EmailForgetPass
 id EmailRegister
 id FUNCTION
 id Forgot_passw
@@ -1543,6 +1544,7 @@ id PasswordRepeatRegister
 id PhoneRegister
 id RegisterButton
 id Register_button
+id ResetPasswordButton
 id SHIFT
 id SYM
 id TOP_END
@@ -2188,6 +2190,7 @@ string regiser
 string register
 string repeat_password
 string search_menu_title
+string send_e_mail
 string settings
 string status_bar_notification_info_overflow
 string submit
