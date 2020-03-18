@@ -4,7 +4,7 @@
     <item
         android:state_selected="true"
         android:color="@android:color/black"
-        />
+        android:state_focused="true"/>
 
     <item
         android:state_selected="false"
