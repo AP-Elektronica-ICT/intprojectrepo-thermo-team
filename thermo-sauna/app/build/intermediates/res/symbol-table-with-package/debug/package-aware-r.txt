@@ -1622,8 +1622,6 @@ id auto
 id automatic
 id barrier
 id beginning
-id birthday
-id birthdayIcon
 id blocking
 id bottom
 id bottom_navigation
@@ -1787,7 +1785,7 @@ id password_toggle
 id peekHeight
 id percent
 id phoneIcon
-id phonenumber
+id phonenumber_Textview
 id pin
 id profile
 id profile_image
@@ -1888,10 +1886,10 @@ id unknown
 id unlabeled
 id up
 id useLogo
-id userEmail
+id userEmail_Textview
 id userProfilepic
-id username
 id usernameIcon
+id username_Textview
 id view_offset_helper
 id visible
 id wide

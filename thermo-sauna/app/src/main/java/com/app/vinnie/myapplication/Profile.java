@@ -1,6 +1,7 @@
 package com.app.vinnie.myapplication;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,8 +25,11 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -42,22 +46,39 @@ TextView mUsername, mPhone, mEmail;
 
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
 
-        mUsername = findViewById(R.id.username_Textview);
-        mPhone = findViewById(R.id.phonenumber_Textview);
-        mEmail = findViewById(R.id.userEmail_Textview);
 
         muser = FirebaseAuth.getInstance().getCurrentUser();
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
         userID = mAuth.getCurrentUser().getUid();
+
         mdeleteButton = findViewById(R.id.ButtonDelete);
         mBottomnavigation = findViewById(R.id.bottom_navigation);
+        mUsername = findViewById(R.id.username_Textview);
+        mPhone = findViewById(R.id.phonenumber_Textview);
+        mEmail = findViewById(R.id.userEmail_Textview);
+
+        //referentie naar de userTest deel en vervolgens adhv USERID de momenteel ingelogde user
+        DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
+                //userinfo uit database halen en in textviews zetten
+                mPhone.setText(documentSnapshot.getString("phone"));
+                mUsername.setText(documentSnapshot.getString("uname"));
+                mEmail.setText(documentSnapshot.getString("email"));
+            }
+        });
+
+
 
         //set profile selected
         mBottomnavigation.setSelectedItemId(R.id.profile);
