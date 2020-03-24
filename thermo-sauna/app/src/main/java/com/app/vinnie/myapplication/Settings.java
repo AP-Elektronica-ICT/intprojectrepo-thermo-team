@@ -6,12 +6,28 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Switch;
+
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.database.DatabaseReference;
 
 public class Settings extends AppCompatActivity {
 
     BottomNavigationView mBottomnavigation;
+
+    //variables
+    int desiredTemp;
+
+
+    //Text and buttons
+    Switch nightModeSw, notifySw;
+    EditText desTempEdit;
+
+    //database ref
+    DatabaseReference ref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +38,11 @@ public class Settings extends AppCompatActivity {
         //set home selected
         mBottomnavigation.setSelectedItemId(R.id.settings);
 
-        //perform itemSelectedListner
+
+        //load settings at start
+        loadSettings();
+
+        //perform itemSelectedListener
 
         mBottomnavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -47,4 +67,14 @@ public class Settings extends AppCompatActivity {
             }
         });
     }
+
+    public void loadSettings(){
+        nightModeSw=findViewById(R.id.NightMode);
+        desTempEdit=findViewById(R.id.DesiredTemp);
+        notifySw=findViewById(R.id.Notifications);
+
+
+    }
+
+
 }
