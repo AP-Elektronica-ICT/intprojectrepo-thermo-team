@@ -11,7 +11,101 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/userProfilepic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_user_name"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginStart="50dp"
+           android:layout_marginBottom="20dp">
+
+           <ImageView
+               android:id="@+id/usernameIcon"
+               android:layout_width="30dp"
+               android:layout_height="60dp"
+               android:src="@drawable/ic_user_name"/>
+
+           <TextView
+               android:id="@+id/username_Textview"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/phoneIcon"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_user_phone"/>
+
+            <TextView
+                android:id="@+id/phonenumber_Textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/mailIcon"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_user_mail"/>
+
+            <TextView
+                android:id="@+id/userEmail_Textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+          >
+
+        <Button
+            android:id="@+id/ButtonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/edit" />
 
         <Button
             android:id="@+id/ButtonDelete"
@@ -27,6 +121,10 @@
             android:layout_marginBottom="20dp"
             android:text="@string/logout"
             android:onClick="logout"/>
+        </LinearLayout>
+
+
+
 
 
 
@@ -38,7 +136,7 @@
             app:itemIconTint="@drawable/selector"
             app:itemTextColor="@drawable/selector"
             app:menu="@menu/menu_navigation"
-            android:layout_alignParentBottom="true"
+
             />
 
 

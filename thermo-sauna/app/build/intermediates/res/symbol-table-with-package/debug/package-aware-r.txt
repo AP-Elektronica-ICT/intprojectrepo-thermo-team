@@ -1488,6 +1488,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_settings
+drawable ic_user_birthday
+drawable ic_user_mail
+drawable ic_user_name
+drawable ic_user_phone
 drawable logo
 drawable messenger_bubble_large_blue
 drawable messenger_bubble_large_white
@@ -1531,6 +1535,7 @@ id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
 id ButtonDelete
+id ButtonEdit
 id ButtonLogout
 id CTRL
 id EmailForgetPass
@@ -1617,6 +1622,8 @@ id auto
 id automatic
 id barrier
 id beginning
+id birthday
+id birthdayIcon
 id blocking
 id bottom
 id bottom_navigation
@@ -1723,6 +1730,7 @@ id line1
 id line3
 id listMode
 id list_item
+id mailIcon
 id masked
 id media_actions
 id message
@@ -1778,6 +1786,8 @@ id parent_matrix
 id password_toggle
 id peekHeight
 id percent
+id phoneIcon
+id phonenumber
 id pin
 id profile
 id profile_image
@@ -1878,6 +1888,10 @@ id unknown
 id unlabeled
 id up
 id useLogo
+id userEmail
+id userProfilepic
+id username
+id usernameIcon
 id view_offset_helper
 id visible
 id wide
@@ -2125,6 +2139,7 @@ string common_signin_button_text_long
 string default_web_client_id
 string delete_acoount
 string e_mail
+string edit
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

@@ -903,6 +903,7 @@
     <string name="default_web_client_id" translatable="false">419518550867-qoehddnoh96a8iiisq0msbnkue6cj9kb.apps.googleusercontent.com</string>
     <string name="delete_acoount">Delete Acoount</string>
     <string name="e_mail">E-mail</string>
+    <string name="edit">EDIT</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
