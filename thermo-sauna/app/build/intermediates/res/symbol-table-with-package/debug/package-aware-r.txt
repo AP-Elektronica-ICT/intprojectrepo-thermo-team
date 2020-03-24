@@ -1531,12 +1531,15 @@ id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DesiredTemp
 id EmailRegister
 id FUNCTION
 id Forgot_passw
 id Login_button
 id Logo
 id META
+id NightMode
+id Notifications
 id PasswordLogin
 id PasswordRegister
 id PasswordRepeatRegister
