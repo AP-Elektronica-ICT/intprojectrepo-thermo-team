@@ -36,24 +36,24 @@
         "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\xml\\standalone_badge_gravity_bottom_start.xml"
     },
     {
-        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
-    },
-    {
         "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_ring_outer_path_animation.xml.flat",
         "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
     },
     {
-        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_close.png.flat",
-        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\4f17fe57c96bcac606ac88b349752ad4\\jetified-facebook-common-5.15.3\\res\\drawable-mdpi-v4\\com_facebook_close.png"
+        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
+        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\color\\design_error.xml"
     },
     {
         "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_ripple_color.xml.flat",
         "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\color\\mtrl_bottom_nav_colored_ripple_color.xml"
     },
     {
-        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
-        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\color\\design_error.xml"
+        "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_close.png.flat",
+        "source": "C:\\Users\\dries\\.gradle\\caches\\transforms-2\\files-2.1\\4f17fe57c96bcac606ac88b349752ad4\\jetified-facebook-common-5.15.3\\res\\drawable-mdpi-v4\\com_facebook_close.png"
     },
     {
         "merged": "D:\\AP\\2eBach\\InternationalProject\\SaunaApp\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
