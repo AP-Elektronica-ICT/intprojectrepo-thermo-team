@@ -7,19 +7,54 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
 
 public class MainActivity extends AppCompatActivity {
 
+    LineGraphSeries<DataPoint> series;
     BottomNavigationView mBottomnavigation;
+    TextView duration , temp;
+    DatabaseReference reff;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        temp =(TextView)findViewById(R.id.tempdata);
+        reff = FirebaseDatabase.getInstance().getReference().child("Saunas").child("Sauna1");
+        reff.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String Temperature =dataSnapshot.child("Temp").getValue().toString();
+                temp.setText(Temperature);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        }) ;
+        GraphView graph = (GraphView) findViewById(R.id.grafiek);
+        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
+                new DataPoint(0, 22),
+
+        });
+        graph.addSeries(series);
 
         mBottomnavigation = findViewById(R.id.bottom_navigation);
 

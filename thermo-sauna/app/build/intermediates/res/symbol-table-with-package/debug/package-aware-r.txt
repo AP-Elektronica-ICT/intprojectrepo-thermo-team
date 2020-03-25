@@ -588,6 +588,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr shapeAppearance
 attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
@@ -974,6 +978,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1525,6 +1530,7 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twitter_logo
+drawable vuur
 font annie_use_your_telescope
 id ALT
 id AlreadyHaveAccount
@@ -1673,6 +1679,7 @@ id direct
 id disableHome
 id display_always
 id dropdown_menu
+id durationdata
 id edit_query
 id end
 id end_padder
@@ -1695,6 +1702,7 @@ id ghost_view
 id ghost_view_holder
 id gone
 id googleicon
+id grafiek
 id group_divider
 id groups
 id hideable
@@ -1719,6 +1727,7 @@ id line1
 id line3
 id listMode
 id list_item
+id locatie
 id masked
 id media_actions
 id message
@@ -1842,6 +1851,8 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id temp
+id tempdata
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1850,11 +1861,20 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView10
+id textView11
+id textView12
+id textView2
+id textView3
+id textView5
+id textView9
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id tijd
 id time
 id title
 id titleDividerNoCustom
@@ -1874,8 +1894,11 @@ id unknown
 id unlabeled
 id up
 id useLogo
+id view2
+id view3
 id view_offset_helper
 id visible
+id vuur
 id wide
 id withText
 id wrap
@@ -2940,6 +2963,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

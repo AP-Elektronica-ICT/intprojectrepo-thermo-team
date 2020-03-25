@@ -15,9 +15,9 @@
         <activity android:name=".Settings" />
         <activity android:name=".Profile" />
         <activity android:name=".Register" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".ForgetPassword" />
-        <activity android:name=".Login">
+        <activity android:name=".Login"/>
+            <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

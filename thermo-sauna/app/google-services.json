@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "419518550867-r4n0ekkqsj2lvcs35ha8v4vr69a53c68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.vinnie.myapplication",
+            "certificate_hash": "cf71d05ed83404754664a08f0e3493d9fc636ba4"
+          }
+        },
+        {
           "client_id": "419518550867-e1j4jlfk9dfqmq0gqbmt618ar8dcf4di.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

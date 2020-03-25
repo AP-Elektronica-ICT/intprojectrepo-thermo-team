@@ -59,15 +59,15 @@
 33        <activity android:name="com.app.vinnie.myapplication.Register" />
 33-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-46
 33-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-43
-34        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
-34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-50
-34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-47
-35        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
-35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-52
-35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-49
-36        <activity android:name="com.app.vinnie.myapplication.Login" >
-36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-26:20
-36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
+34        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
+34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-52
+34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-49
+35        <activity android:name="com.app.vinnie.myapplication.Login" />
+35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-42
+35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-40
+36        <activity android:name="com.app.vinnie.myapplication.MainActivity" >
+36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:13-26:20
+36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:23-51
 37            <intent-filter>
 37-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:13-25:29
 38                <action android:name="android.intent.action.MAIN" />

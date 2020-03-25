@@ -14,6 +14,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Gebruike
 MERGED from [com.google.firebase:firebase-analytics:17.2.3] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9fe8e020eb5ab81babe359bdc43491db\firebase-analytics-17.2.3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\15fbdbd2053c5c1af6fba6c38f398bc8\jetified-graphview-4.2.2\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\20cbe4fc799cb5e329941b7384366424\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\03ad49b4ff583cddf09138ff90a76ded\jetified-firebase-firestore-21.4.1\AndroidManifest.xml:2:1-26:12
@@ -34,8 +35,8 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Gebruik
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\6495cdecba74abf9b5fa919ed29424b3\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\ee9e8ac167cd22b7b688d74196ee391b\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\d211bc53b1a6a258b61724b9fbc98c9a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9c0bdf0201e31c00748ce49dc6fff07c\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -132,6 +133,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Gebruiker\.g
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\15fbdbd2053c5c1af6fba6c38f398bc8\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\15fbdbd2053c5c1af6fba6c38f398bc8\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\03ad49b4ff583cddf09138ff90a76ded\jetified-firebase-firestore-21.4.1\AndroidManifest.xml:16:5-24:19
@@ -210,18 +213,18 @@ activity#com.app.vinnie.myapplication.Register
 ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-46
 	android:name
 		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-43
-activity#com.app.vinnie.myapplication.MainActivity
-ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-50
-	android:name
-		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-47
 activity#com.app.vinnie.myapplication.ForgetPassword
-ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-52
+ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-52
 	android:name
-		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-49
+		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-49
 activity#com.app.vinnie.myapplication.Login
-ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-42
 	android:name
-		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
+		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-40
+activity#com.app.vinnie.myapplication.MainActivity
+ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:13-26:20
+	android:name
+		ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:23-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
@@ -262,6 +265,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Gebruiker\.g
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:21:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\15fbdbd2053c5c1af6fba6c38f398bc8\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\15fbdbd2053c5c1af6fba6c38f398bc8\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\20cbe4fc799cb5e329941b7384366424\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\20cbe4fc799cb5e329941b7384366424\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
@@ -302,10 +307,10 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\ee9e8ac167cd22b7b688d74196ee391b\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\d211bc53b1a6a258b61724b9fbc98c9a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\d211bc53b1a6a258b61724b9fbc98c9a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9c0bdf0201e31c00748ce49dc6fff07c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\9c0bdf0201e31c00748ce49dc6fff07c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
