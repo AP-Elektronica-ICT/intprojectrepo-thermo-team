@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
-        "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable\\selector.xml"
-    },
-    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_navigation_item_text_color.xml.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\color\\mtrl_navigation_item_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
+        "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable\\selector.xml"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_action_chip.xml.flat",
@@ -476,6 +476,10 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\66767690d83e34f0040150ba871188c1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
@@ -502,6 +506,10 @@
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_phone.png.flat",
         "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\66767690d83e34f0040150ba871188c1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_format_list.xml.flat",
@@ -760,12 +768,12 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\0897e8f941a5d0a6bb4abc77e94f9b6e\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
-        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\animator\\design_fab_hide_motion_spec.xml"
-    },
-    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook_logo.png.flat",
         "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable\\facebook_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\animator\\design_fab_hide_motion_spec.xml"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
@@ -804,6 +812,10 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\color\\design_icon_tint.xml"
     },
     {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\66767690d83e34f0040150ba871188c1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\layout_com_facebook_smart_device_dialog_fragment.xml.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\a5d45d4776803f3dbdd95c456385a9ca\\jetified-facebook-common-5.15.3\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
     },
@@ -840,12 +852,12 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\layout\\mtrl_picker_header_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
@@ -1676,12 +1688,12 @@
         "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable-mdpi\\ic_user_name.png"
     },
     {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_com_facebook_tooltip_black_bottomnub.png.flat",
-        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\e8e80c51c95171634dbb804d7bb76826\\jetified-facebook-login-5.15.3\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
-    },
-    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_com_facebook_tooltip_black_bottomnub.png.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\e8e80c51c95171634dbb804d7bb76826\\jetified-facebook-login-5.15.3\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
@@ -2240,12 +2252,12 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\ede29bba6ca2761c470b43c256e4a9da\\material-1.1.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_button_background.xml.flat",
@@ -2636,16 +2648,16 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_user_mail.xml.flat",
+        "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable-anydpi\\ic_user_mail.xml"
+    },
+    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_user_mail.xml.flat",
-        "source": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\src\\main\\res\\drawable-anydpi\\ic_user_mail.xml"
     },
     {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",

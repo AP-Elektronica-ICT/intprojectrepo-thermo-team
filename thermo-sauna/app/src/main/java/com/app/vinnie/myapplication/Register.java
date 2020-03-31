@@ -84,7 +84,6 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
-                // progessBar.setVisibility(View.VISIBLE);
 
                 //register user in firebase
 

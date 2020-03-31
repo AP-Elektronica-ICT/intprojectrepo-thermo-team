@@ -178,7 +178,10 @@
             android:layout_marginStart="35dp"
             android:contentDescription="@string/twitter_logo" />
 
-        <ImageView
+
+
+
+        <ImageButton
             android:id="@+id/googleicon"
             android:layout_width="40dp"
             android:layout_height="40dp"

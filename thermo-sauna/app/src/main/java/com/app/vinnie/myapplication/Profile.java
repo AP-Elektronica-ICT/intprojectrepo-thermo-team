@@ -22,8 +22,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -42,6 +45,9 @@ FirebaseAuth mAuth;
 FirebaseFirestore mStore;
 String userID;
 TextView mUsername, mPhone, mEmail;
+//TRY
+DatabaseReference mDatabase;
+FirebaseDatabase database;
 
 
 
@@ -55,6 +61,9 @@ TextView mUsername, mPhone, mEmail;
 
 
 
+        //TRY
+
+
         muser = FirebaseAuth.getInstance().getCurrentUser();
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
@@ -66,6 +75,9 @@ TextView mUsername, mPhone, mEmail;
         mPhone = findViewById(R.id.phonenumber_Textview);
         mEmail = findViewById(R.id.userEmail_Textview);
 
+
+        //ONDERSTAANDE REFERENTIE NAAR DATABASE VERBETEREN zodat we Onchange Data hebben!!!!!!!!!!!!
+
         //referentie naar de userTest deel en vervolgens adhv USERID de momenteel ingelogde user
         DocumentReference documentReference = mStore.collection("usersTest").document(userID);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
@@ -76,7 +88,12 @@ TextView mUsername, mPhone, mEmail;
                 mUsername.setText(documentSnapshot.getString("uname"));
                 mEmail.setText(documentSnapshot.getString("email"));
             }
+
         });
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 
 
