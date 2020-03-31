@@ -1532,6 +1532,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DesiredTemp
+id DesiredTempText
 id EmailRegister
 id FUNCTION
 id Forgot_passw
@@ -1539,7 +1540,9 @@ id Login_button
 id Logo
 id META
 id NightMode
+id NightModeText
 id Notifications
+id NotificationsText
 id PasswordLogin
 id PasswordRegister
 id PasswordRepeatRegister
@@ -1548,6 +1551,7 @@ id RegisterButton
 id Register_button
 id SHIFT
 id SYM
+id Settings
 id TOP_END
 id TOP_START
 id UnameRegis
