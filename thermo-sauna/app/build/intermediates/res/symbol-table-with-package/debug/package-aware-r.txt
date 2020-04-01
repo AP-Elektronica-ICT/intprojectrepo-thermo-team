@@ -1543,7 +1543,6 @@ id EmailRegister
 id FUNCTION
 id Forgot_passw
 id Login_button
-id Login_button_google
 id Logo
 id META
 id PasswordLogin

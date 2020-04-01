@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,6 +23,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
@@ -30,6 +33,11 @@ import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class Login extends AppCompatActivity {
@@ -42,6 +50,9 @@ public class Login extends AppCompatActivity {
     GoogleSignInClient mGoogleSignInClient;
     String TAG = "MainActivity";
     private int RC_SIGN_IN = 1;
+    FirebaseFirestore mStore;
+    String userID;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +64,8 @@ public class Login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mLoginbtn = findViewById(R.id.Login_button);
         signInButton = findViewById(R.id.googleicon);
+        mStore = FirebaseFirestore.getInstance();
+
 
 
         // Configure Google Sign In
@@ -72,7 +85,7 @@ public class Login extends AppCompatActivity {
 
 
 
-// voor als ge al ingelogd is --> direct naar mainactivity
+// voor als ge al ingelogd is --> direct naar mainactivity --> naar onstart doen
         if (mAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
@@ -166,10 +179,10 @@ public class Login extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     FirebaseUser user = mAuth.getCurrentUser();
-                    Toast.makeText(Login.this, " Successful!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    updateUI(user);
+                  //  Toast.makeText(Login.this, " Successful!", Toast.LENGTH_SHORT).show();
+                  //  startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
-                    // TODO1: starten van mainactivity intent
 
                 }
                 else {
@@ -182,7 +195,7 @@ public class Login extends AppCompatActivity {
     }
 
     // krijgen van user info --> naar profile verplaatsen?
-    private void updateUI(FirebaseAuth fUser){
+    private void updateUI(FirebaseUser fUser){
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(getApplicationContext());
         if(account != null){
             String personName = account.getDisplayName();
@@ -191,6 +204,30 @@ public class Login extends AppCompatActivity {
             String personEmail = account.getEmail();
             String personId = account.getId();
             Uri personPhoto = account.getPhotoUrl();
+            userID = mAuth.getCurrentUser().getUid();
+            DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+            //data die we willen wegschrijven
+            Map<String, Object> user = new HashMap<>();
+            user.put("uname", personName);
+            user.put("email", personEmail);
+          //  user.put("phone", phoneNumber);
+            documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void aVoid) {
+                    Log.d("TAG","user profile created for " +userID);
+                }
+            });
+
+            documentReference.set(user).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Log.d("TAG","user profile creation in database failed");
+                }
+            });
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+
+            Toast.makeText(Login.this, userID, Toast.LENGTH_SHORT).show();
+
 
         }
     }

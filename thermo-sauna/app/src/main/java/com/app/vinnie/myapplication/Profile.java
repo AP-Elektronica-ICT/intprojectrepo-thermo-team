@@ -171,8 +171,8 @@ FirebaseDatabase database;
     //logout voor ap --> terug naar login activity
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout
-        startActivity(new Intent(getApplicationContext(), Login.class));
-        finish();
+        startActivity(new Intent(Profile.this, Login.class));
+        this.finish();
     }
     public void deleteUser(String userid){
         mStore.collection("usersTest").document(userid).delete();
