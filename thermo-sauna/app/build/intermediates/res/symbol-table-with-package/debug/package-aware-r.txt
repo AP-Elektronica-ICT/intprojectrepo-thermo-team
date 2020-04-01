@@ -588,6 +588,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr shapeAppearance
 attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
@@ -974,6 +978,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1488,6 +1493,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_settings
+drawable ic_user_birthday
+drawable ic_user_mail
+drawable ic_user_name
+drawable ic_user_phone
 drawable logo
 drawable messenger_bubble_large_blue
 drawable messenger_bubble_large_white
@@ -1525,12 +1534,17 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twitter_logo
+drawable vuur
 font annie_use_your_telescope
 id ALT
 id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
+id ButtonDelete
+id ButtonEdit
+id ButtonLogout
 id CTRL
+id EmailForgetPass
 id EmailRegister
 id FUNCTION
 id Forgot_passw
@@ -1543,6 +1557,7 @@ id PasswordRepeatRegister
 id PhoneRegister
 id RegisterButton
 id Register_button
+id ResetPasswordButton
 id SHIFT
 id SYM
 id TOP_END
@@ -1673,6 +1688,7 @@ id direct
 id disableHome
 id display_always
 id dropdown_menu
+id durationdata
 id edit_query
 id end
 id end_padder
@@ -1695,6 +1711,7 @@ id ghost_view
 id ghost_view_holder
 id gone
 id googleicon
+id grafiek
 id group_divider
 id groups
 id hideable
@@ -1719,6 +1736,11 @@ id line1
 id line3
 id listMode
 id list_item
+<<<<<<< HEAD
+id locatie
+=======
+id mailIcon
+>>>>>>> origin/master
 id masked
 id media_actions
 id message
@@ -1774,6 +1796,8 @@ id parent_matrix
 id password_toggle
 id peekHeight
 id percent
+id phoneIcon
+id phonenumber_Textview
 id pin
 id profile
 id profile_image
@@ -1842,6 +1866,8 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id temp
+id tempdata
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1850,11 +1876,20 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView10
+id textView11
+id textView12
+id textView2
+id textView3
+id textView5
+id textView9
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id tijd
 id time
 id title
 id titleDividerNoCustom
@@ -1874,8 +1909,18 @@ id unknown
 id unlabeled
 id up
 id useLogo
+<<<<<<< HEAD
+id view2
+id view3
+=======
+id userEmail_Textview
+id userProfilepic
+id usernameIcon
+id username_Textview
+>>>>>>> origin/master
 id view_offset_helper
 id visible
+id vuur
 id wide
 id withText
 id wrap
@@ -2119,7 +2164,9 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string delete_acoount
 string e_mail
+string edit
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2188,6 +2235,7 @@ string regiser
 string register
 string repeat_password
 string search_menu_title
+string send_e_mail
 string settings
 string status_bar_notification_info_overflow
 string submit
@@ -2940,6 +2988,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

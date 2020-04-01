@@ -19,6 +19,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.core.Tag;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -38,6 +39,17 @@ public class Register extends AppCompatActivity {
     String userID;
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth = FirebaseAuth.getInstance();
+        if (mAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            finish();
+
+        }
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
@@ -51,14 +63,13 @@ public class Register extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
-        //progressBar = fincViewById(R.id.progressbarRegister
 
         // voor als ge al ingelogd is --> direct naar mainactivity
-        if (mAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            finish();
+     //   if (mAuth.getCurrentUser() != null){
+       //     startActivity(new Intent(getApplicationContext(), MainActivity.class));
+         //   finish();
 
-        }
+        //}
 
         mRegisterbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +95,6 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
-                // progessBar.setVisibility(View.VISIBLE);
 
                 //register user in firebase
 
@@ -104,6 +114,7 @@ public class Register extends AppCompatActivity {
                             user.put("uname", username);
                             user.put("email", email);
                             user.put("phone", phoneNumber);
+
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
