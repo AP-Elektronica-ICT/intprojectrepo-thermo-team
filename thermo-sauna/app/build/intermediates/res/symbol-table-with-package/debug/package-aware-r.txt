@@ -1544,12 +1544,9 @@ id ButtonDelete
 id ButtonEdit
 id ButtonLogout
 id CTRL
-<<<<<<< HEAD
-id EmailForgetPass
-=======
 id DesiredTemp
 id DesiredTempText
->>>>>>> settings
+id EmailForgetPass
 id EmailRegister
 id FUNCTION
 id Forgot_passw
@@ -1746,11 +1743,8 @@ id line1
 id line3
 id listMode
 id list_item
-<<<<<<< HEAD
 id locatie
-=======
 id mailIcon
->>>>>>> origin/master
 id masked
 id media_actions
 id message
@@ -1919,15 +1913,12 @@ id unknown
 id unlabeled
 id up
 id useLogo
-<<<<<<< HEAD
-id view2
-id view3
-=======
 id userEmail_Textview
 id userProfilepic
 id usernameIcon
 id username_Textview
->>>>>>> origin/master
+id view2
+id view3
 id view_offset_helper
 id visible
 id vuur

@@ -23,7 +23,7 @@ public final class R {
         public static final int fontStyle = 0x7f04013b;
         public static final int fontVariationSettings = 0x7f04013c;
         public static final int fontWeight = 0x7f04013d;
-        public static final int ttcIndex = 0x7f0402a3;
+        public static final int ttcIndex = 0x7f0402a7;
     }
     public static final class color {
         private color() {}
@@ -78,34 +78,34 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int action_container = 0x7f0a0045;
-        public static final int action_divider = 0x7f0a0047;
-        public static final int action_image = 0x7f0a0048;
-        public static final int action_text = 0x7f0a004e;
-        public static final int actions = 0x7f0a004f;
-        public static final int async = 0x7f0a0057;
-        public static final int blocking = 0x7f0a005c;
-        public static final int chronometer = 0x7f0a0071;
-        public static final int forever = 0x7f0a00a9;
-        public static final int icon = 0x7f0a00b3;
-        public static final int icon_group = 0x7f0a00b4;
-        public static final int info = 0x7f0a00b8;
-        public static final int italic = 0x7f0a00bb;
-        public static final int line1 = 0x7f0a00c2;
-        public static final int line3 = 0x7f0a00c3;
-        public static final int normal = 0x7f0a00ed;
-        public static final int notification_background = 0x7f0a00ee;
-        public static final int notification_main_column = 0x7f0a00ef;
-        public static final int notification_main_column_container = 0x7f0a00f0;
-        public static final int right_icon = 0x7f0a0108;
-        public static final int right_side = 0x7f0a0109;
-        public static final int tag_transition_group = 0x7f0a0141;
-        public static final int tag_unhandled_key_event_manager = 0x7f0a0142;
-        public static final int tag_unhandled_key_listeners = 0x7f0a0143;
-        public static final int text = 0x7f0a0146;
-        public static final int text2 = 0x7f0a0147;
-        public static final int time = 0x7f0a0151;
-        public static final int title = 0x7f0a0152;
+        public static final int action_container = 0x7f0a004c;
+        public static final int action_divider = 0x7f0a004e;
+        public static final int action_image = 0x7f0a004f;
+        public static final int action_text = 0x7f0a0055;
+        public static final int actions = 0x7f0a0056;
+        public static final int async = 0x7f0a005e;
+        public static final int blocking = 0x7f0a0063;
+        public static final int chronometer = 0x7f0a0078;
+        public static final int forever = 0x7f0a00b1;
+        public static final int icon = 0x7f0a00bc;
+        public static final int icon_group = 0x7f0a00bd;
+        public static final int info = 0x7f0a00c1;
+        public static final int italic = 0x7f0a00c4;
+        public static final int line1 = 0x7f0a00cb;
+        public static final int line3 = 0x7f0a00cc;
+        public static final int normal = 0x7f0a00f7;
+        public static final int notification_background = 0x7f0a00f8;
+        public static final int notification_main_column = 0x7f0a00f9;
+        public static final int notification_main_column_container = 0x7f0a00fa;
+        public static final int right_icon = 0x7f0a0112;
+        public static final int right_side = 0x7f0a0113;
+        public static final int tag_transition_group = 0x7f0a014b;
+        public static final int tag_unhandled_key_event_manager = 0x7f0a014c;
+        public static final int tag_unhandled_key_listeners = 0x7f0a014d;
+        public static final int text = 0x7f0a0152;
+        public static final int text2 = 0x7f0a0153;
+        public static final int time = 0x7f0a0166;
+        public static final int title = 0x7f0a0167;
     }
     public static final class integer {
         private integer() {}
@@ -152,7 +152,7 @@ public final class R {
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f040133, 0x7f04013b, 0x7f04013c, 0x7f04013d, 0x7f0402a3 };
+        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f040133, 0x7f04013b, 0x7f04013c, 0x7f04013d, 0x7f0402a7 };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
