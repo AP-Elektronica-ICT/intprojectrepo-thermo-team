@@ -30,7 +30,7 @@
 18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
 19
 20    <application
-20-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-31:19
+20-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-32:19
 21        android:allowBackup="true"
 21-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -62,30 +62,30 @@
 34        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
 34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-52
 34-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-49
-35        <activity android:name="com.app.vinnie.myapplication.Login" />
-35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-42
-35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-40
-36        <activity android:name="com.app.vinnie.myapplication.MainActivity" >
-36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:13-26:20
-36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:23-51
+35        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
+35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-50
+35-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-47
+36        <activity android:name="com.app.vinnie.myapplication.Login" >
+36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-27:20
+36-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
 37            <intent-filter>
-37-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:13-25:29
+37-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:13-26:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:17-69
-38-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:25-66
+38-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:17-69
+38-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:17-77
-40-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:27-74
+40-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:17-77
+40-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:27-74
 41            </intent-filter>
 42        </activity>
 43
 44        <meta-data
-44-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:28:9-30:57
+44-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:9-31:57
 45            android:name="preloaded_fonts"
-45-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:13-43
+45-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:30:13-43
 46            android:resource="@array/preloaded_fonts" />
-46-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:30:13-54
+46-->D:\AP\internationale projecten\gitkraken\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:31:13-54
 47
 48        <activity
 48-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Gebruiker\.gradle\caches\transforms-2\files-2.1\1af34bdcaf7f99707d1605e893cf5489\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66

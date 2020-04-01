@@ -28,13 +28,17 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference reff;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         temp =(TextView)findViewById(R.id.tempdata);
+
+
+
+
         reff = FirebaseDatabase.getInstance().getReference().child("Saunas").child("Sauna1");
         reff.addValueEventListener(new ValueEventListener() {
             @Override
@@ -47,11 +51,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+
             }
         }) ;
         GraphView graph = (GraphView) findViewById(R.id.grafiek);
         LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
                 new DataPoint(0, 22),
+                new DataPoint(10, 22),
+                new DataPoint(22, 42),
+
 
         });
         graph.addSeries(series);
