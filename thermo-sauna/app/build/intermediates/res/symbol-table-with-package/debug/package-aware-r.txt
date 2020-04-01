@@ -1538,13 +1538,22 @@ id ButtonDelete
 id ButtonEdit
 id ButtonLogout
 id CTRL
+<<<<<<< HEAD
 id EmailForgetPass
+=======
+id DesiredTemp
+id DesiredTempText
+>>>>>>> settings
 id EmailRegister
 id FUNCTION
 id Forgot_passw
 id Login_button
 id Logo
 id META
+id NightMode
+id NightModeText
+id Notifications
+id NotificationsText
 id PasswordLogin
 id PasswordRegister
 id PasswordRepeatRegister
@@ -1554,6 +1563,7 @@ id Register_button
 id ResetPasswordButton
 id SHIFT
 id SYM
+id Settings
 id TOP_END
 id TOP_START
 id UnameRegis
