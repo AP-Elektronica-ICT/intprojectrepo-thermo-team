@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "D:\\AP\\internationale projecten\\gitkraken\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Gebruiker\\.gradle\\caches\\transforms-2\\files-2.1\\4692ae5559a4e6ccb5fe18891746edb4\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+=======
+            "outputFile": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\4692ae5559a4e6ccb5fe18891746edb4\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> origin/master
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +28,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Gebruiker\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+=======
+                    "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\d3b6ea0458196941bc2a135f5829d875\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> origin/master
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

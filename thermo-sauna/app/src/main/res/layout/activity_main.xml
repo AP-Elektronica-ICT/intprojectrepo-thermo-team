@@ -8,6 +8,7 @@
     android:background="@drawable/background">
 
 
+<<<<<<< HEAD
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="661dp"
@@ -225,6 +226,8 @@
 
 
     </RelativeLayout>
+=======
+>>>>>>> origin/master
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
