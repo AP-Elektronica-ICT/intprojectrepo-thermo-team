@@ -102,13 +102,17 @@ public class Register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+                            //versturen van verificatie email.
+                            mAuth.getCurrentUser().sendEmailVerification();
                             Toast.makeText(Register.this, "USER CREATED.", Toast.LENGTH_SHORT).show();
+
                             //voor we naar login gaan eerst user profile gegevens wegschrijven naar de database
                             //userID nemen van de registerende user
                             userID = mAuth.getCurrentUser().getUid();
+
                             //selecteren van de kolom waar je wilt opslagen
                             DocumentReference documentReference = mStore.collection("usersTest").document(userID);
-
+                            
                             //data die we willen wegschrijven
                             Map<String, Object> user = new HashMap<>();
                             user.put("uname", username);
@@ -131,7 +135,7 @@ public class Register extends AppCompatActivity {
 
 
                             //inloggen
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Login.class));
                         }else {
                             //indien de user niet kon worden aangemaakt
                             Toast.makeText(Register.this, "USER REGISTER FAILED.", Toast.LENGTH_LONG).show();

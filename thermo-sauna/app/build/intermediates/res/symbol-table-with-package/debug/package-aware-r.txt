@@ -1538,12 +1538,9 @@ id ButtonDelete
 id ButtonEdit
 id ButtonLogout
 id CTRL
-<<<<<<< HEAD
-id EmailForgetPass
-=======
 id DesiredTemp
 id DesiredTempText
->>>>>>> settings
+id EmailForgetPass
 id EmailRegister
 id FUNCTION
 id Forgot_passw
