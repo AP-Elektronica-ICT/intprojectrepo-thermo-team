@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 8-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
@@ -13,315 +13,336 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
-15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
-16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:25:5-68
-16-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:25:22-65
-17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-17-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:26:22-107
-18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
-18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
-19
-20    <application
-20-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-31:19
-21        android:allowBackup="true"
-21-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:8:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc8c556056bc2430dbdbbfc74baae2d4\core-1.1.0\AndroidManifest.xml:24:18-86
-23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.AppCompat.NoActionBar" >
-29-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-59
-30        <activity android:name="com.app.vinnie.myapplication.SaunaList" />
-30-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-56
-30-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:19-44
-31        <activity android:name="com.app.vinnie.myapplication.Settings" />
-31-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-46
-31-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:19-43
-32        <activity android:name="com.app.vinnie.myapplication.Profile" />
-32-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-45
-32-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-42
-33        <activity android:name="com.app.vinnie.myapplication.Register" />
-33-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-46
-33-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-43
-34        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
-34-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-50
-34-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-47
-35        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
-35-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-52
-35-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-49
-36        <activity android:name="com.app.vinnie.myapplication.Login" >
-36-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-26:20
-36-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
-37            <intent-filter>
-37-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:13-25:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:17-69
-38-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:17-77
-40-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <meta-data
-44-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:28:9-30:57
-45            android:name="preloaded_fonts"
-45-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:13-43
-46            android:resource="@array/preloaded_fonts" />
-46-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:30:13-54
-47
-48        <activity
-48-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
-49            android:name="com.facebook.FacebookActivity"
-49-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
-50            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-50-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
-51            android:theme="@style/com_facebook_activity_theme" />
-51-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
-52        <activity android:name="com.facebook.CustomTabMainActivity" />
-52-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
-52-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
-53        <activity
-53-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
-54            android:name="com.facebook.CustomTabActivity"
-54-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
-55            android:exported="true" >
-55-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
-56            <intent-filter>
-56-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
-57                <action android:name="android.intent.action.VIEW" />
-57-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
-57-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
-58
-59                <category android:name="android.intent.category.DEFAULT" />
-59-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:17-76
-59-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:27-73
-60                <category android:name="android.intent.category.BROWSABLE" />
-60-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
-60-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
-61
-62                <data
-62-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:45:17-47:50
-63                    android:host="cct.com.app.vinnie.myapplication"
-63-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:46:21-56
-64                    android:scheme="fbconnect" />
-64-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:47:21-47
-65            </intent-filter>
-66        </activity>
-67
-68        <service
-68-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
-69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
-70            android:directBootAware="true"
-70-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-71            android:exported="false" >
-71-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
-72            <meta-data
-72-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
-73                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-73-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
-75            <meta-data
-75-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
-76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-76-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
-78            <meta-data
-78-->[com.google.firebase:firebase-firestore:21.4.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\427672f155f925ddd0d6c232dc917add\jetified-firebase-firestore-21.4.1\AndroidManifest.xml:20:13-22:85
-79                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-79-->[com.google.firebase:firebase-firestore:21.4.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\427672f155f925ddd0d6c232dc917add\jetified-firebase-firestore-21.4.1\AndroidManifest.xml:21:17-111
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.firebase:firebase-firestore:21.4.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\427672f155f925ddd0d6c232dc917add\jetified-firebase-firestore-21.4.1\AndroidManifest.xml:22:17-82
-81            <meta-data
-81-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4151043b2354088e8cb1cf1905ffc0f7\play-services-measurement-api-17.2.3\AndroidManifest.xml:30:13-32:85
-82                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-82-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4151043b2354088e8cb1cf1905ffc0f7\play-services-measurement-api-17.2.3\AndroidManifest.xml:31:17-139
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4151043b2354088e8cb1cf1905ffc0f7\play-services-measurement-api-17.2.3\AndroidManifest.xml:32:17-82
-84            <meta-data
-84-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
-85                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-85-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
-87        </service>
-88
-89        <activity
-89-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
-90            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-90-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
-91            android:excludeFromRecents="true"
-91-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
-92            android:exported="true"
-92-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
-93            android:launchMode="singleTask"
-93-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
-94            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-94-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
-95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-95-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
-96        <activity
-96-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-97            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-97-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-98            android:excludeFromRecents="true"
-98-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-99            android:exported="false"
-99-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:10:5-34:19
+23        android:allowBackup="true"
+23-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.AppCompat.NoActionBar" >
+31-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-59
+32        <activity android:name="com.app.vinnie.myapplication.SaunaList" />
+32-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-56
+32-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-44
+33        <activity android:name="com.app.vinnie.myapplication.Settings" />
+33-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-46
+33-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-43
+34        <activity android:name="com.app.vinnie.myapplication.Profile" />
+34-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-45
+34-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-42
+35        <activity android:name="com.app.vinnie.myapplication.Register" />
+35-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-46
+35-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-43
+36        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
+36-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:9-50
+36-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:19-47
+37        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
+37-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:9-52
+37-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:19-49
+38        <activity android:name="com.app.vinnie.myapplication.Login" >
+38-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:9-29:20
+38-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-40
+39            <intent-filter>
+39-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:17-69
+40-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:17-77
+42-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:31:9-33:57
+47            android:name="preloaded_fonts"
+47-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:32:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:33:13-54
+49
+50        <activity
+50-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+51            android:name="com.facebook.FacebookActivity"
+51-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+52            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+52-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+53            android:theme="@style/com_facebook_activity_theme" />
+53-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+54        <activity android:name="com.facebook.CustomTabMainActivity" />
+54-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+54-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+55        <activity
+55-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+56            android:name="com.facebook.CustomTabActivity"
+56-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+57            android:exported="true" >
+57-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+58            <intent-filter>
+58-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+59                <action android:name="android.intent.action.VIEW" />
+59-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
+59-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:17-76
+61-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:27-73
+62                <category android:name="android.intent.category.BROWSABLE" />
+62-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
+62-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
+63
+64                <data
+64-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:45:17-47:50
+65                    android:host="cct.com.app.vinnie.myapplication"
+65-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:46:21-56
+66                    android:scheme="fbconnect" />
+66-->[com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:47:21-47
+67            </intent-filter>
+68        </activity>
+69
+70        <service
+70-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+73            android:exported="false" >
+73-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+74            <meta-data
+74-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+75-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc0e62dd5e92daabfdfa1114aa61fcac\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+81                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+81-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc0e62dd5e92daabfdfa1114aa61fcac\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc0e62dd5e92daabfdfa1114aa61fcac\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
+84                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+84-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
+86            <meta-data
+86-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+87-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+90                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+90-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+92        </service>
+93
+94        <activity
+94-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+95            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+95-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+99            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+99-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
 100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-100-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-101        <!--
-102            Service handling Google Sign-In user revocation. For apps that do not integrate with
-103            Google Sign-In, this service will never be started.
-104        -->
-105        <service
-105-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-106            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-106-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-107            android:exported="true"
-107-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-108            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-108-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\66767690d83e34f0040150ba871188c1\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-109
-110        <receiver
-110-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:29:9-33:20
-111            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-111-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:30:13-85
-112            android:enabled="true"
-112-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:31:13-35
-113            android:exported="false" >
-113-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:32:13-37
-114        </receiver>
-115        <receiver
-115-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:34:9-42:20
-116            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-116-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:35:13-100
-117            android:enabled="true"
-117-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:36:13-35
-118            android:exported="true"
-118-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:37:13-36
-119            android:permission="android.permission.INSTALL_PACKAGES" >
-119-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:38:13-69
-120            <intent-filter>
-120-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:39:13-41:29
-121                <action android:name="com.android.vending.INSTALL_REFERRER" />
-121-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:40:17-79
-121-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:40:25-76
-122            </intent-filter>
-123        </receiver>
-124
-125        <service
-125-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:44:9-47:40
-126            android:name="com.google.android.gms.measurement.AppMeasurementService"
-126-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:45:13-84
-127            android:enabled="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:46:13-35
-128            android:exported="false" />
-128-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:47:13-37
-129        <service
-129-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:48:9-52:72
-130            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-130-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:49:13-87
-131            android:enabled="true"
-131-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:50:13-35
+100-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\da5bf70a313e89065e49640e993de712\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+101        <activity
+101-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+102            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+102-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+103            android:excludeFromRecents="true"
+103-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+106        <!--
+107            Service handling Google Sign-In user revocation. For apps that do not integrate with
+108            Google Sign-In, this service will never be started.
+109        -->
+110        <service
+110-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+111            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+111-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+112            android:exported="true"
+112-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+113            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+113-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ef3735f249d625080779dd5445206e8f\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+114
+115        <provider
+115-->[com.squareup.picasso:picasso:2.71828] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3ae1bd145c88ee4b7add9734e4f92907\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+116            android:name="com.squareup.picasso.PicassoProvider"
+116-->[com.squareup.picasso:picasso:2.71828] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3ae1bd145c88ee4b7add9734e4f92907\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+117            android:authorities="com.app.vinnie.myapplication.com.squareup.picasso"
+117-->[com.squareup.picasso:picasso:2.71828] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3ae1bd145c88ee4b7add9734e4f92907\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+118            android:exported="false" />
+118-->[com.squareup.picasso:picasso:2.71828] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3ae1bd145c88ee4b7add9734e4f92907\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+119
+120        <receiver
+120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+121            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+121-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+122            android:exported="true"
+122-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+123            android:permission="com.google.android.c2dm.permission.SEND" >
+123-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+124            <intent-filter>
+124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+126            </intent-filter>
+127        </receiver>
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+131            android:authorities="com.app.vinnie.myapplication.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 132            android:exported="false"
-132-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:51:13-37
-133            android:permission="android.permission.BIND_JOB_SERVICE" />
-133-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d562b7940ac9ab509289ef96140dc84c\play-services-measurement-17.2.3\AndroidManifest.xml:52:13-69
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 134
-135        <receiver
-135-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
-136            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-136-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
-137            android:exported="true"
-137-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
-138            android:permission="com.google.android.c2dm.permission.SEND" >
-138-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
-139            <intent-filter>
-139-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
-140                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-140-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
-140-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
-141            </intent-filter>
-142        </receiver>
-143
-144        <provider
-144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-145            android:name="com.google.firebase.provider.FirebaseInitProvider"
-145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-146            android:authorities="com.app.vinnie.myapplication.firebaseinitprovider"
-146-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-147            android:exported="false"
-147-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-148            android:initOrder="100" />
-148-->[com.google.firebase:firebase-common:19.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0ac6ea1f5c236ce9c05334db30e32977\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-149
-150        <activity
-150-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-151            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-151-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-152            android:exported="false"
-152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+135        <activity
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+139
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+141-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+143            android:exported="false" >
+143-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+144        </receiver>
+145        <receiver
+145-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+146            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+146-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+147            android:enabled="true"
+147-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+148            android:exported="true"
+148-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+149            android:permission="android.permission.INSTALL_PACKAGES" >
+149-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+150            <intent-filter>
+150-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+151                <action android:name="com.android.vending.INSTALL_REFERRER" />
+151-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+151-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+152            </intent-filter>
+153        </receiver>
 154
-155        <meta-data
-155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\09305d873edc506310563c5129bea36f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-156            android:name="com.google.android.gms.version"
-156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\09305d873edc506310563c5129bea36f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-157            android:value="@integer/google_play_services_version" />
-157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\09305d873edc506310563c5129bea36f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-158        <!--
-159         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-160         with the application context. This config is merged in with the host app's manifest,
-161         but there can only be one provider with the same authority activated at any given
-162         point; so if the end user has two or more different apps that use Facebook SDK, only the
-163         first one will be able to use the provider. To work around this problem, we use the
-164         following placeholder in the authority to identify each host application as if it was
-165         a completely different provider.
-166        -->
-167        <provider
-167-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
-168            android:name="com.facebook.internal.FacebookInitProvider"
-168-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
-169            android:authorities="com.app.vinnie.myapplication.FacebookInitProvider"
-169-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
-170            android:exported="false" />
-170-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
-171
-172        <receiver
-172-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
-173            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-173-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
-174            android:exported="false" >
-174-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
-175            <intent-filter>
-175-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
-176                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-176-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
-176-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
-177            </intent-filter>
-178        </receiver>
-179    </application>
-180
-181</manifest>
+155        <service
+155-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+156            android:name="com.google.android.gms.measurement.AppMeasurementService"
+156-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+157            android:enabled="true"
+157-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+158            android:exported="false" />
+158-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+159        <service
+159-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+160            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+160-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+163            android:permission="android.permission.BIND_JOB_SERVICE" />
+163-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+168        <!--
+169         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+170         with the application context. This config is merged in with the host app's manifest,
+171         but there can only be one provider with the same authority activated at any given
+172         point; so if the end user has two or more different apps that use Facebook SDK, only the
+173         first one will be able to use the provider. To work around this problem, we use the
+174         following placeholder in the authority to identify each host application as if it was
+175         a completely different provider.
+176        -->
+177        <provider
+177-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+178            android:name="com.facebook.internal.FacebookInitProvider"
+178-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+179            android:authorities="com.app.vinnie.myapplication.FacebookInitProvider"
+179-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+180            android:exported="false" />
+180-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+181
+182        <receiver
+182-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+183            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+183-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+184            android:exported="false" >
+184-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+185            <intent-filter>
+185-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+186                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+186-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+186-->[com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+187            </intent-filter>
+188        </receiver>
+189    </application>
+190
+191</manifest>

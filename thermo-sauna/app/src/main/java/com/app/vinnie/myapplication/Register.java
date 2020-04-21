@@ -64,12 +64,7 @@ public class Register extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
 
-        // voor als ge al ingelogd is --> direct naar mainactivity
-     //   if (mAuth.getCurrentUser() != null){
-       //     startActivity(new Intent(getApplicationContext(), MainActivity.class));
-         //   finish();
 
-        //}
 
         mRegisterbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,10 +97,14 @@ public class Register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+                            //versturen van verificatie email.
+                            mAuth.getCurrentUser().sendEmailVerification();
                             Toast.makeText(Register.this, "USER CREATED.", Toast.LENGTH_SHORT).show();
+
                             //voor we naar login gaan eerst user profile gegevens wegschrijven naar de database
                             //userID nemen van de registerende user
                             userID = mAuth.getCurrentUser().getUid();
+
                             //selecteren van de kolom waar je wilt opslagen
                             DocumentReference documentReference = mStore.collection("usersTest").document(userID);
 
@@ -114,6 +113,7 @@ public class Register extends AppCompatActivity {
                             user.put("uname", username);
                             user.put("email", email);
                             user.put("phone", phoneNumber);
+                            user.put("image", "");
 
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
@@ -131,7 +131,7 @@ public class Register extends AppCompatActivity {
 
 
                             //inloggen
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Login.class));
                         }else {
                             //indien de user niet kon worden aangemaakt
                             Toast.makeText(Register.this, "USER REGISTER FAILED.", Toast.LENGTH_LONG).show();

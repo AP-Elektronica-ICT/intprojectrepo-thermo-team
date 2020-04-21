@@ -85,8 +85,8 @@ public class Login extends AppCompatActivity {
 
 
 
-// voor als ge al ingelogd is --> direct naar mainactivity --> naar onstart doen
-        if (mAuth.getCurrentUser() != null){
+        // voor als ge al ingelogd zijt --> direct naar mainactivity --> naar onstart doen
+        if (mAuth.getCurrentUser() != null && mAuth.getCurrentUser().isEmailVerified()){
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
 
@@ -99,7 +99,6 @@ public class Login extends AppCompatActivity {
                 final String username = mUsername.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
 
-
                 if(TextUtils.isEmpty(username)){
                     mUsername.setError("USERNAME= IS REQUIRED");
                     return;
@@ -109,16 +108,19 @@ public class Login extends AppCompatActivity {
                     mPassword.setError("PASSWORD IS REQUIRED");
                 }
 
-
-
-
-
                 mAuth.signInWithEmailAndPassword(username,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            Toast.makeText(Login.this, "Login works!.", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            //verification email
+                            if(mAuth.getCurrentUser().isEmailVerified()){
+                                Toast.makeText(Login.this, "Login works!.", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            }
+                            else {
+                                Toast.makeText(Login.this, "VERIFY EMAIL! CHECK SPAM!", Toast.LENGTH_SHORT).show();
+                            }
+
                         }else {
 
                             Toast.makeText(Login.this, "Login failed!", Toast.LENGTH_SHORT).show();
@@ -180,10 +182,6 @@ public class Login extends AppCompatActivity {
                 if (task.isSuccessful()){
                     FirebaseUser user = mAuth.getCurrentUser();
                     updateUI(user);
-                  //  Toast.makeText(Login.this, " Successful!", Toast.LENGTH_SHORT).show();
-                  //  startActivity(new Intent(getApplicationContext(), MainActivity.class));
-
-
                 }
                 else {
                     Toast.makeText(Login.this, " Successful!", Toast.LENGTH_SHORT).show();
