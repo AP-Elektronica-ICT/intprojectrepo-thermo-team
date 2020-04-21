@@ -32,13 +32,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-        <activity android:name="com.app.vinnie.myapplication.SaunaList" />
+        <activity android:name="com.app.vinnie.myapplication.Login" />
         <activity android:name="com.app.vinnie.myapplication.Settings" />
         <activity android:name="com.app.vinnie.myapplication.Profile" />
         <activity android:name="com.app.vinnie.myapplication.Register" />
         <activity android:name="com.app.vinnie.myapplication.MainActivity" />
         <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
-        <activity android:name="com.app.vinnie.myapplication.Login" >
+        <activity android:name="com.app.vinnie.myapplication.SaunaList" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

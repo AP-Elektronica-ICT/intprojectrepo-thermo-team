@@ -19,9 +19,9 @@ BottomNavigationView mBottomnavigation;
     public void QrCodeScanner(){
         try
         {
-            Intent Intent = new Intent();
-            Intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-            startActivity(Intent);
+            Intent Camera = new Intent();
+            Camera.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(Camera);
         }
         catch (Exception e){
             e.printStackTrace ();
@@ -40,9 +40,11 @@ BottomNavigationView mBottomnavigation;
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-            QrCodeScanner ();
+                QrCodeScanner();
             }
         });
+
+
 
         //set home selected
         mBottomnavigation.setSelectedItemId(R.id.saunaList);

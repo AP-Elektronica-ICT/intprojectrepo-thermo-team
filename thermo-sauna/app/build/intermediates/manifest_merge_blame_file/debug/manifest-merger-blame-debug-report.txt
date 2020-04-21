@@ -57,9 +57,9 @@
 32        android:testOnly="true"
 33        android:theme="@style/Theme.AppCompat.NoActionBar" >
 33-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-59
-34        <activity android:name="com.app.vinnie.myapplication.SaunaList" />
-34-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-56
-34-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-44
+34        <activity android:name="com.app.vinnie.myapplication.Login" />
+34-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-52
+34-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-40
 35        <activity android:name="com.app.vinnie.myapplication.Settings" />
 35-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-46
 35-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-43
@@ -75,9 +75,9 @@
 39        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
 39-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:9-52
 39-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-49
-40        <activity android:name="com.app.vinnie.myapplication.Login" >
+40        <activity android:name="com.app.vinnie.myapplication.SaunaList" >
 40-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:9-30:20
-40-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-40
+40-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-44
 41            <intent-filter>
 41-->D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:13-29:29
 42                <action android:name="android.intent.action.MAIN" />

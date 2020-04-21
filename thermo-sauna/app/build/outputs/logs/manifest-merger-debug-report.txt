@@ -212,10 +212,10 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\felix\.gr
 		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-59
-activity#com.app.vinnie.myapplication.SaunaList
-ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-56
+activity#com.app.vinnie.myapplication.Login
+ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-52
 	android:name
-		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-44
+		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-40
 activity#com.app.vinnie.myapplication.Settings
 ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-46
 	android:name
@@ -236,10 +236,10 @@ activity#com.app.vinnie.myapplication.ForgetPassword
 ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:9-52
 	android:name
 		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-49
-activity#com.app.vinnie.myapplication.Login
+activity#com.app.vinnie.myapplication.SaunaList
 ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-40
+		ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\AP 2de Bach\international proj\project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
