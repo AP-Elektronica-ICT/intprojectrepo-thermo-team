@@ -5,23 +5,49 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.view.View.OnClickListener;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class SaunaList extends AppCompatActivity {
 BottomNavigationView mBottomnavigation;
+
+    public void QrCodeScanner(){
+        try
+        {
+            Intent Intent = new Intent();
+            Intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(Intent);
+        }
+        catch (Exception e){
+            e.printStackTrace ();
+        }
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sauna_list);
 
+        Button button = (Button) findViewById(R.id.button);
         mBottomnavigation = findViewById(R.id.bottom_navigation);
+        //perform OnClickListener
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+            QrCodeScanner ();
+            }
+        });
 
         //set home selected
         mBottomnavigation.setSelectedItemId(R.id.saunaList);
 
-        //perform itemSelectedListner
+        //perform itemSelectedListener
 
         mBottomnavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

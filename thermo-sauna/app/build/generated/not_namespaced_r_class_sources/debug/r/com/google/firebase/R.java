@@ -31,8 +31,8 @@ public final class R {
         public static final int layout_dodgeInsetEdges = 0x7f0401ad;
         public static final int layout_insetEdge = 0x7f0401b6;
         public static final int layout_keyline = 0x7f0401b7;
-        public static final int statusBarBackground = 0x7f04023d;
-        public static final int ttcIndex = 0x7f0402a3;
+        public static final int statusBarBackground = 0x7f04023e;
+        public static final int ttcIndex = 0x7f0402a4;
     }
     public static final class color {
         private color() {}
@@ -143,7 +143,7 @@ public final class R {
         private string() {}
 
         public static final int common_google_play_services_unknown_issue = 0x7f110044;
-        public static final int status_bar_notification_info_overflow = 0x7f110095;
+        public static final int status_bar_notification_info_overflow = 0x7f110097;
     }
     public static final class style {
         private style() {}
@@ -164,7 +164,7 @@ public final class R {
         public static final int ColorStateListItem_android_color = 0;
         public static final int ColorStateListItem_android_alpha = 1;
         public static final int ColorStateListItem_alpha = 2;
-        public static final int[] CoordinatorLayout = { 0x7f04017a, 0x7f04023d };
+        public static final int[] CoordinatorLayout = { 0x7f04017a, 0x7f04023e };
         public static final int CoordinatorLayout_keylines = 0;
         public static final int CoordinatorLayout_statusBarBackground = 1;
         public static final int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f04017f, 0x7f040180, 0x7f040181, 0x7f0401ad, 0x7f0401b6, 0x7f0401b7 };
@@ -182,7 +182,7 @@ public final class R {
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f040133, 0x7f04013b, 0x7f04013c, 0x7f04013d, 0x7f0402a3 };
+        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f040133, 0x7f04013b, 0x7f04013c, 0x7f04013d, 0x7f0402a4 };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
