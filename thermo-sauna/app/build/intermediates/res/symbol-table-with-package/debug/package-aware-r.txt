@@ -1474,6 +1474,7 @@ drawable googleg_standard_color_18
 drawable ic_account
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
+drawable ic_edit
 drawable ic_edit_black_24dp
 drawable ic_format_list
 drawable ic_home
@@ -1535,7 +1536,6 @@ id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
 id ButtonDelete
-id ButtonEdit
 id ButtonLogout
 id CTRL
 id DesiredTemp
@@ -1555,6 +1555,7 @@ id PasswordLogin
 id PasswordRegister
 id PasswordRepeatRegister
 id PhoneRegister
+id Profilepic
 id RegisterButton
 id Register_button
 id ResetPasswordButton
@@ -1697,6 +1698,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id facebookicon
 id fade
 id fill
@@ -1894,7 +1896,6 @@ id unlabeled
 id up
 id useLogo
 id userEmail_Textview
-id userProfilepic
 id usernameIcon
 id username_Textview
 id view_offset_helper

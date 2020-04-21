@@ -64,12 +64,7 @@ public class Register extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
 
-        // voor als ge al ingelogd is --> direct naar mainactivity
-     //   if (mAuth.getCurrentUser() != null){
-       //     startActivity(new Intent(getApplicationContext(), MainActivity.class));
-         //   finish();
 
-        //}
 
         mRegisterbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,12 +107,13 @@ public class Register extends AppCompatActivity {
 
                             //selecteren van de kolom waar je wilt opslagen
                             DocumentReference documentReference = mStore.collection("usersTest").document(userID);
-                            
+
                             //data die we willen wegschrijven
                             Map<String, Object> user = new HashMap<>();
                             user.put("uname", username);
                             user.put("email", email);
                             user.put("phone", phoneNumber);
+                            user.put("image", "");
 
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
