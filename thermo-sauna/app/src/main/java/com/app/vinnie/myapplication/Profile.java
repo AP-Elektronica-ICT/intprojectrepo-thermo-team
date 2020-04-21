@@ -55,10 +55,13 @@ import com.google.firebase.firestore.SetOptions;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Transformation;
 
 import java.security.Key;
 import java.util.HashMap;
 import java.util.Map;
+
+import io.alterac.blurkit.BlurLayout;
 
 import static com.google.firebase.storage.FirebaseStorage.getInstance;
 
@@ -68,6 +71,7 @@ Button mdeleteButton;
 TextView mUsername, mPhone, mEmail;
 ImageView mProfilepic;
 FloatingActionButton mfab;
+BlurLayout mblurLayoutName, mblurLayoutPhone, mblurLayoutEmail;
 
 ProgressDialog pd;
 //farebase
@@ -105,6 +109,12 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
         setContentView(R.layout.activity_profile);
 
 
+        mblurLayoutName = findViewById(R.id.blurLayoutName);
+        mblurLayoutPhone = findViewById(R.id.blurLayoutPhone);
+        mblurLayoutEmail = findViewById(R.id.blurLayoutEmail);
+        mblurLayoutName.startBlur();
+        mblurLayoutPhone.startBlur();
+        mblurLayoutEmail.startBlur();
 
         //TRY
 
@@ -137,7 +147,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
 
 
         //referentie naar de userTest deel en vervolgens adhv USERID de momenteel ingelogde user
-        DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+        DocumentReference documentReference = mStore.collection("Users").document(userID);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
@@ -148,10 +158,10 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                 String image = documentSnapshot.getString("image");
 
                 try {
-                    Picasso.get().load(image).into(mProfilepic);
+                    Picasso.get().load(image).rotate(90).into(mProfilepic);
                 }
                 catch (Exception d){
-                    Picasso.get().load(R.drawable.ic_user_name).into(mProfilepic);
+                    Picasso.get().load(R.drawable.ic_user_name).placeholder(R.drawable.ic_user_name).rotate(90).into(mProfilepic);
                 }
 
             }
@@ -160,6 +170,29 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
 
         //set profile selected
         mBottomnavigation.setSelectedItemId(R.id.profile);
+        mBottomnavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()){
+                    case R.id.home:
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.profile:
+
+                        return true;
+                    case R.id.settings:
+                        startActivity(new Intent(getApplicationContext(), Settings.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.saunaList:
+                        startActivity(new Intent(getApplicationContext(), SaunaList.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                }
+                return false;
+            }
+        });
 
         //fab onclicklist
         mfab.setOnClickListener(new View.OnClickListener() {
@@ -333,7 +366,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
 
                     HashMap<String, Object> result = new HashMap<>();
                     result.put(key, value);
-                    DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+                    DocumentReference documentReference = mStore.collection("Users").document(userID);
                     documentReference.update(key, value);
 
                 }
@@ -376,8 +409,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                 //handle dialog item clicks
                 switch (which){
                     case 0:
-                        //pd.setMessage("Camera");
-                       // showImagePicDialog();
+
                         if(!checkCameraPermission()){
                             requestCameraPermission();
                         }
@@ -393,7 +425,6 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                         else {
                             requestStoragePermission();
                         }
-                       // pd.setMessage("Choose from gallery");
                         break;
 
                 }
@@ -495,8 +526,10 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                             //add/update url in users database
                             HashMap<String, Object> results = new HashMap<>();
                             results.put("image", downloadUti.toString());
-                            DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+                            DocumentReference documentReference = mStore.collection("Users").document(userID);
                             documentReference.update("image", downloadUti.toString());
+                            Picasso.get().load(downloadUti.toString()).rotate(90).into(mProfilepic);
+
 
                         }
                         else {
@@ -546,8 +579,6 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
 
     }
 
-
-
     //logout voor ap --> terug naar login activity
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout
@@ -555,13 +586,9 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
         this.finish();
     }
     public void deleteUser(String userid){
-        mStore.collection("usersTest").document(userid).delete();
+        mStore.collection("Users").document(userid).delete();
+        startActivity(new Intent(Profile.this, Login.class));
 
 
     }
-
-
-
-
-
 }

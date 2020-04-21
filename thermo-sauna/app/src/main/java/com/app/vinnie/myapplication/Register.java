@@ -26,6 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 public class Register extends AppCompatActivity {
 
@@ -72,12 +73,25 @@ public class Register extends AppCompatActivity {
 
                 final String email = mEmail.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
+                String repeatPass = mRepeatpassword.getText().toString();
                 final String username = mUsername.getText().toString();
                 final String phoneNumber = mPhoneNumber.getText().toString();
 
                 // valideren van user input --> nog verbeteren
+                if (TextUtils.isEmpty(username)){
+                    mUsername.setError("username is required");
+                    return;
+                }
                 if (TextUtils.isEmpty(email)){
                     mEmail.setError("Email is required");
+                    return;
+                }
+                if (!valEmail(email)){
+                    mEmail.setError("this is not a valid e-mail");
+                    return;
+                }
+                if (!valPhone(phoneNumber)){
+                    mPhoneNumber.setError(" this is not a valid phone number");
                     return;
                 }
                 if (TextUtils.isEmpty(password)){
@@ -89,6 +103,11 @@ public class Register extends AppCompatActivity {
                     mPassword.setError(" password must be longer dan 8 characters");
                     return;
                 }
+                if (!password.equals(repeatPass)){
+                    mRepeatpassword.setError("passwords don't match");
+                    return;
+                }
+
 
 
                 //register user in firebase
@@ -106,7 +125,7 @@ public class Register extends AppCompatActivity {
                             userID = mAuth.getCurrentUser().getUid();
 
                             //selecteren van de kolom waar je wilt opslagen
-                            DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+                            DocumentReference documentReference = mStore.collection("Users").document(userID);
 
                             //data die we willen wegschrijven
                             Map<String, Object> user = new HashMap<>();
@@ -114,6 +133,8 @@ public class Register extends AppCompatActivity {
                             user.put("email", email);
                             user.put("phone", phoneNumber);
                             user.put("image", "");
+                            user.put("Nightmode", false);
+                            user.put("Notifications", false);
 
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
@@ -150,5 +171,13 @@ public class Register extends AppCompatActivity {
     public void Login(View view) {
         startActivity(new Intent(getApplicationContext(), Login.class));
 
+    }
+
+    public boolean valPhone(String phoneIn){
+        return phoneIn.charAt(0) == '0' && phoneIn.charAt(1) == '4' && phoneIn.matches("[0-9]") && phoneIn.length() == 10;
+    }
+
+    public boolean valEmail(String email){
+        return  email.matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$");
     }
 }

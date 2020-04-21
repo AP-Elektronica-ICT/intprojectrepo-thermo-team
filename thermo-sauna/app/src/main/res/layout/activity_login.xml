@@ -160,35 +160,44 @@
         android:orientation="horizontal">
 
 
-        <ImageView
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/facebookicon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:srcCompat="@drawable/facebook_logo"
-            android:layout_marginLeft="60dp"
-            android:contentDescription="@string/facebook_login"
-            android:layout_marginStart="60dp" />
+            android:layout_marginStart="60dp"
+            android:src="@drawable/facebook_logo"
+            app:civ_border_color="#FF000000"
+            >
 
-        <ImageView
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/twittericon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="35dp"
-            app:srcCompat="@drawable/twitter_logo"
             android:layout_marginStart="35dp"
-            android:contentDescription="@string/twitter_logo" />
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/twitter_logo"
+            app:civ_border_color="#FF000000"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
 
 
 
-
-        <ImageButton
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/googleicon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="35dp"
-            app:srcCompat="@drawable/google_logo"
             android:layout_marginStart="35dp"
-            android:contentDescription="@string/google_icon" />
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/google_logo"
+            app:civ_border_color="#FF000000"
+             >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
 
     </LinearLayout>
 

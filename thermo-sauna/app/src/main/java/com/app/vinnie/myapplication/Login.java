@@ -39,6 +39,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 
 public class Login extends AppCompatActivity {
 
@@ -46,7 +48,7 @@ public class Login extends AppCompatActivity {
     Button mLoginbtn;
     FirebaseAuth mAuth;
     //SignInButton signInButton;
-    ImageButton signInButton;
+    CircleImageView signInButtonGoogle, signInButtonTwitter;
     GoogleSignInClient mGoogleSignInClient;
     String TAG = "MainActivity";
     private int RC_SIGN_IN = 1;
@@ -63,7 +65,9 @@ public class Login extends AppCompatActivity {
         mPassword = findViewById(R.id.PasswordLogin);
         mAuth = FirebaseAuth.getInstance();
         mLoginbtn = findViewById(R.id.Login_button);
-        signInButton = findViewById(R.id.googleicon);
+        signInButtonGoogle = findViewById(R.id.googleicon);
+        signInButtonTwitter = findViewById(R.id.twittericon);
+
         mStore = FirebaseFirestore.getInstance();
 
 
@@ -76,7 +80,7 @@ public class Login extends AppCompatActivity {
 
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        signInButton.setOnClickListener(new View.OnClickListener() {
+        signInButtonGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signIn();
@@ -114,6 +118,7 @@ public class Login extends AppCompatActivity {
                         if (task.isSuccessful()){
                             //verification email
                             if(mAuth.getCurrentUser().isEmailVerified()){
+
                                 Toast.makeText(Login.this, "Login works!.", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             }
@@ -200,14 +205,17 @@ public class Login extends AppCompatActivity {
             String personGivenName = account.getGivenName();
             String personFamilyName = account.getFamilyName();
             String personEmail = account.getEmail();
-            String personId = account.getId();
             Uri personPhoto = account.getPhotoUrl();
             userID = mAuth.getCurrentUser().getUid();
-            DocumentReference documentReference = mStore.collection("usersTest").document(userID);
+            DocumentReference documentReference = mStore.collection("Users").document(userID);
             //data die we willen wegschrijven
             Map<String, Object> user = new HashMap<>();
             user.put("uname", personName);
             user.put("email", personEmail);
+            user.put("image", personPhoto.toString());
+            user.put("Nightmode", false);
+            user.put("Notifications", false);
+
           //  user.put("phone", phoneNumber);
             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                 @Override

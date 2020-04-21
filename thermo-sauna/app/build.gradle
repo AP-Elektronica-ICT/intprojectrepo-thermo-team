@@ -61,4 +61,8 @@ dependencies {
     //firestore
     implementation 'com.google.firebase:firebase-firestore:21.4.2'
 
+    //blury bakckground
+    implementation 'io.alterac.blurkit:blurkit:1.1.0'
+
+
 }

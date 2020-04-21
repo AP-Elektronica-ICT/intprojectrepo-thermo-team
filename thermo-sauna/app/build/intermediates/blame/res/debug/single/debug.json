@@ -2088,6 +2088,10 @@
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\fa39e006d05b052a329c9da7ac7a031a\\core-1.2.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
+        "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable_original_bk_logo.bmp.flat",
+        "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\f713b29315811e26e77d2d4f358a7a85\\blurkit-1.1.0\\res\\drawable\\original_bk_logo.bmp"
+    },
+    {
         "merged": "C:\\Users\\phili\\OneDrive\\AP\\2e\\2e trimester\\international project\\intprojectrepo-thermo-team\\thermo-sauna\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_tooltip_blue_background.9.png.flat",
         "source": "C:\\Users\\phili\\.gradle\\caches\\transforms-2\\files-2.1\\e8e80c51c95171634dbb804d7bb76826\\jetified-facebook-login-5.15.3\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },

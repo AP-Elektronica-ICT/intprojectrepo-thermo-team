@@ -50,7 +50,7 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
-            tools:ignore="TextFields" />
+            tools:ignore="phone" />
 
 
         <EditText

@@ -32,6 +32,7 @@ MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\p
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d89fbf9a24fc4f232fb513c41df96b88\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -324,6 +325,8 @@ MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.g
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:20:5-44
