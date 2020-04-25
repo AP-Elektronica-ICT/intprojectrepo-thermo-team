@@ -2174,6 +2174,7 @@ string icon_content_description
 string list
 string login
 string logout
+string mailicon
 string messenger_send_button_text
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -2217,6 +2218,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_number
+string phoneicon
 string profile
 string project_id
 string regiser

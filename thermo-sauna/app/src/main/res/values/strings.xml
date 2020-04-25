@@ -25,4 +25,6 @@
     <string name="send_e_mail">Send E-mail</string>
     <string name="delete_acoount">Delete Acoount</string>
     <string name="edit">EDIT</string>
+    <string name="phoneicon">phoneicon</string>
+    <string name="mailicon">mailicon</string>
 </resources>

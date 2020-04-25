@@ -7,16 +7,20 @@
     tools:context=".Profile"
     android:background="@drawable/background">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true">
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
 
 
         <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/Profilepic"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -26,24 +30,22 @@
             android:layout_marginStart="155dp"
             android:layout_marginTop="68dp"
             android:layout_marginEnd="155dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+                                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
         <ImageView
             android:id="@+id/usernameIcon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="349dp"
             android:src="@drawable/ic_user_name"
-            app:layout_constraintBottom_toTopOf="@+id/phoneIcon"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Profilepic" />
-
+            android:layout_marginStart="50dp" />
 
 
         <io.alterac.blurkit.BlurLayout
@@ -57,23 +59,30 @@
                 android:id="@+id/username_Textview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/usernameIcon"
                 app:layout_constraintStart_toEndOf="@+id/usernameIcon" />
         </io.alterac.blurkit.BlurLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
 
         <ImageView
             android:id="@+id/phoneIcon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginStart="50dp"
             android:src="@drawable/ic_user_phone"
-            app:layout_constraintBottom_toTopOf="@+id/ButtonDelete"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Profilepic" />
+            android:contentDescription="@string/phoneicon"
+            />
 
         <io.alterac.blurkit.BlurLayout
             android:id="@+id/blurLayoutPhone"
@@ -87,29 +96,30 @@
                 android:id="@+id/phonenumber_Textview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/phoneIcon"
                 app:layout_constraintStart_toEndOf="@+id/phoneIcon" />
         </io.alterac.blurkit.BlurLayout>
 
+        </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
         <ImageView
             android:id="@+id/mailIcon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
             android:src="@drawable/ic_user_mail"
-            app:layout_constraintBottom_toTopOf="@+id/ButtonDelete"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Profilepic"
-            app:layout_constraintVertical_bias="0.766" />
+            android:layout_marginStart="50dp"
+            android:contentDescription="@string/mailicon"
+            />
 
         <io.alterac.blurkit.BlurLayout
             android:id="@+id/blurLayoutEmail"
@@ -124,23 +134,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/mailIcon"
                 app:layout_constraintStart_toEndOf="@+id/mailIcon" />
         </io.alterac.blurkit.BlurLayout>
+        </LinearLayout>
 
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:src="@drawable/ic_edit"
-            app:layout_constraintBottom_toTopOf="@+id/ButtonDelete"
-            app:layout_constraintEnd_toEndOf="parent" />
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
 
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="350dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_edit"
+                app:layout_constraintBottom_toTopOf="@+id/ButtonDelete"
+                app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
             android:id="@+id/ButtonDelete"
@@ -165,11 +182,10 @@
             app:itemBackground="@color/White"
             app:itemIconTint="@drawable/selector"
             app:itemTextColor="@drawable/selector"
-            app:layout_constraintBottom_toBottomOf="parent"
-
             app:menu="@menu/menu_navigation" />
+        </LinearLayout>
 
+    </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
