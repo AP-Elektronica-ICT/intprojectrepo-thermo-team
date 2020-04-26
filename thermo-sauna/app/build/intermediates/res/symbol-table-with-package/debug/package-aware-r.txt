@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim bottom
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -30,6 +31,7 @@ anim design_snackbar_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim top
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1537,6 +1539,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twitter_logo
 font annie_use_your_telescope
+font bungee
 id ALT
 id AlreadyHaveAccount
 id BOTTOM_END
@@ -1810,6 +1813,7 @@ id profile_image
 id progress_bar
 id progress_circular
 id progress_horizontal
+id projectname
 id radio
 id right
 id right_icon
@@ -1981,6 +1985,7 @@ layout activity_profile
 layout activity_register
 layout activity_sauna_list
 layout activity_settings
+layout activity_start_screen
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout com_facebook_activity_layout

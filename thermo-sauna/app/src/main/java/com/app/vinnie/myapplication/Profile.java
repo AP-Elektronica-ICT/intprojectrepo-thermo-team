@@ -78,8 +78,6 @@ ProgressDialog pd;
 FirebaseUser muser;
 FirebaseAuth mAuth;
 FirebaseFirestore mStore;
-DatabaseReference mDatabaseref;
-FirebaseDatabase mdatabase;
 //storage
 StorageReference storageReference;
 //path where images of user profile will be stored
@@ -203,29 +201,6 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
         });
 
 
-        //perform itemSelectedListner
-        mBottomnavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                switch (menuItem.getItemId()){
-                    case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.profile:
-                        return true;
-                    case R.id.settings:
-                        startActivity(new Intent(getApplicationContext(), Settings.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.saunaList:
-                        startActivity(new Intent(getApplicationContext(), SaunaList.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                }
-                return false;
-            }
-        });
 
         mdeleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -423,7 +398,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                             requestStoragePermission();
                         }
                         else {
-                            requestStoragePermission();
+                            pickFromGallery();
                         }
                         break;
 
@@ -528,6 +503,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                             results.put("image", downloadUti.toString());
                             DocumentReference documentReference = mStore.collection("Users").document(userID);
                             documentReference.update("image", downloadUti.toString());
+                            //picasso lib
                             Picasso.get().load(downloadUti.toString()).rotate(90).into(mProfilepic);
 
 
@@ -582,8 +558,14 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
     //logout voor ap --> terug naar login activity
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout
-        startActivity(new Intent(Profile.this, Login.class));
-        this.finish();
+       // startActivity(new Intent(Profile.this, Login.class));
+       // finishAffinity();
+       Intent intent = new Intent(getApplicationContext(), Login.class);
+       // intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+
+        startActivity(intent);
+
     }
     public void deleteUser(String userid){
         mStore.collection("Users").document(userid).delete();
