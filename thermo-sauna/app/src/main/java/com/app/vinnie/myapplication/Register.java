@@ -135,6 +135,9 @@ public class Register extends AppCompatActivity {
                             user.put("image", "");
                             user.put("Nightmode", false);
                             user.put("Notifications", false);
+                            user.put("SelectedSauna", "TestSauna");
+                            user.put("Desired_Temp", 85);
+                            //user.put("Saunas", );
 
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override

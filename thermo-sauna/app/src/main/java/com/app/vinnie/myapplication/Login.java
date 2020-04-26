@@ -215,6 +215,7 @@ public class Login extends AppCompatActivity {
             user.put("image", personPhoto.toString());
             user.put("Nightmode", false);
             user.put("Notifications", false);
+            user.put("Desired_Temp", 85);
 
           //  user.put("phone", phoneNumber);
             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
