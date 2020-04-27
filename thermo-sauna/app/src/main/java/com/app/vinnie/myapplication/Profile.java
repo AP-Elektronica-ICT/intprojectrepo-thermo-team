@@ -458,7 +458,7 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        //deze methode wordt opgeroepne na het nemen van een foto van camera of gallerij
+        //deze methode wordt opgeroepne na het nemen van een foto met camera of vanuit gallerij
         if (resultCode == RESULT_OK) {
             if (requestCode == IMAGE_PICK_GALLERY_CODE) {
                 //abeelding gekozen vanuit de gallerij --> verkrijgen van uri van de image
@@ -558,18 +558,16 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
     //logout voor ap --> terug naar login activity
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout
-       // startActivity(new Intent(Profile.this, Login.class));
-       // finishAffinity();
-       Intent intent = new Intent(getApplicationContext(), Login.class);
-       // intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        finishAffinity();
 
-        startActivity(intent);
+        startActivity(new Intent(getApplicationContext(), Startscreen.class));
+
+
 
     }
     public void deleteUser(String userid){
         mStore.collection("Users").document(userid).delete();
-        startActivity(new Intent(Profile.this, Login.class));
+        startActivity(new Intent(Profile.this, Startscreen.class));
 
 
     }

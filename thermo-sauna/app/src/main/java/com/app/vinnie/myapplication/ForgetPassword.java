@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -29,7 +31,6 @@ public class ForgetPassword extends AppCompatActivity {
 
         //verbinding firebase
         mAuth = FirebaseAuth.getInstance();
-
         mSendResetButton = findViewById(R.id.ResetPasswordButton);
         mResetEmail = findViewById(R.id.EmailForgetPass);
 
@@ -66,5 +67,9 @@ public class ForgetPassword extends AppCompatActivity {
 
 
 
+    }
+
+    public void GoToRegister(View view) {
+        startActivity(new Intent(getApplicationContext(), Register.class));
     }
 }

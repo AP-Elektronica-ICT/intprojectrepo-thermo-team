@@ -1533,6 +1533,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable original_bk_logo
+drawable rounded_edit_text
+drawable rouned_corner_button
 drawable selector
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1540,6 +1542,8 @@ drawable tooltip_frame_light
 drawable twitter_logo
 font annie_use_your_telescope
 font bungee
+font montserrat
+font montserrat_alternates
 id ALT
 id AlreadyHaveAccount
 id BOTTOM_END
@@ -1808,6 +1812,7 @@ id percent
 id phoneIcon
 id phonenumber_Textview
 id pin
+id policy
 id profile
 id profile_image
 id progress_bar
@@ -2158,6 +2163,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
 string delete_acoount
+string don_t_have_an_account_yet
 string e_mail
 string edit
 string error_icon_content_description
@@ -2167,6 +2173,7 @@ string fab_transformation_sheet_behavior
 string facebook_login
 string firebase_database_url
 string forget_your_password
+string forgot_password_enter_your_email_and_we_will_send_it_to_your_mail
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2224,16 +2231,19 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_number
 string phoneicon
+string privacy
 string profile
 string project_id
 string regiser
 string register
 string repeat_password
+string reset_password
 string search_menu_title
-string send_e_mail
 string settings
+string signup_know
 string status_bar_notification_info_overflow
 string submit
+string terms_and_conditions_privacy_policy
 string thermo_sauna
 string twitter_logo
 string username

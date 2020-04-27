@@ -1,8 +1,10 @@
 package com.app.vinnie.myapplication;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -38,6 +40,8 @@ public class Register extends AppCompatActivity {
     //Progressbar progressbar
     FirebaseFirestore mStore;
     String userID;
+    Boolean Agree = false;
+    EditText mpolicy;
 
     @Override
     protected void onStart() {
@@ -61,9 +65,10 @@ public class Register extends AppCompatActivity {
         mRepeatpassword = findViewById(R.id.PasswordRepeatRegister);
         mPhoneNumber = findViewById(R.id.PhoneRegister);
         mRegisterbtn = findViewById(R.id.RegisterButton);
-
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
+
+
 
 
 
@@ -115,7 +120,7 @@ public class Register extends AppCompatActivity {
                 mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()){
+                        if (task.isSuccessful() && Agree){
                             //versturen van verificatie email.
                             mAuth.getCurrentUser().sendEmailVerification();
                             Toast.makeText(Register.this, "USER CREATED.", Toast.LENGTH_SHORT).show();
@@ -183,4 +188,9 @@ public class Register extends AppCompatActivity {
     public boolean valEmail(String email){
         return  email.matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$");
     }
+
+
+
+    //String policy = getString(R.string.privacy);
+
 }

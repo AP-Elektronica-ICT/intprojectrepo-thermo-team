@@ -26,10 +26,13 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="text"
-
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+            android:layout_marginBottom="4dp"
             />
 
         <EditText
+            android:layout_marginBottom="4dp"
             android:id="@+id/EmailRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,10 +41,14 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+
 
             />
 
         <EditText
+            android:layout_marginBottom="4dp"
             android:id="@+id/PhoneRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,11 +56,16 @@
             android:hint="@string/phone_number"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:inputType="textEmailAddress"
-            tools:ignore="phone" />
+            android:inputType="number"
+            tools:ignore="TextFields,phone"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+            />
 
 
         <EditText
+            android:layout_marginBottom="4dp"
+
             android:id="@+id/PasswordRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,17 +73,20 @@
             android:hint="@string/password"
             android:textColorHint="@color/black"
             android:inputType="textPassword"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
 
             />
         <EditText
             android:id="@+id/PasswordRepeatRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:layout_marginTop="10dp"
             android:hint="@string/repeat_password"
             android:textColorHint="@color/black"
             android:inputType="textPassword"
-
+            android:background="@drawable/rounded_edit_text"
             />
 
         <TextView
@@ -81,15 +96,32 @@
             android:layout_marginTop="10dp"
             android:text="@string/by_creating_an_accoung_you_agree_to_our_terms_and_conditions_amp_privacy_policy"
             android:textColor="#FFFFFF"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:text="@string/terms_and_conditions_privacy_policy"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+
+            />
+
 
 
         <Button
             android:id="@+id/RegisterButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:text="@string/regiser"
+            android:background="@drawable/rouned_corner_button"
+            android:fontFamily="@font/montserrat"
+
             />
 
         <TextView
@@ -98,9 +130,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/already_have_an_account"
-            android:textColor="#FFFFFF"
+            android:textColor="#0000EE"
             android:layout_gravity="center_horizontal"
-            android:onClick="Login"/>
+            android:onClick="Login"
+            />
 
 
     </LinearLayout>

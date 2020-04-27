@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +32,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
+import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.firebase.firestore.DocumentReference;
@@ -104,7 +107,7 @@ public class Login extends AppCompatActivity {
                 String password = mPassword.getText().toString().trim();
 
                 if(TextUtils.isEmpty(username)){
-                    mUsername.setError("USERNAME= IS REQUIRED");
+                    mUsername.setError("USERNAME IS REQUIRED");
                     return;
                 }
 
@@ -126,10 +129,19 @@ public class Login extends AppCompatActivity {
                                 Toast.makeText(Login.this, "VERIFY EMAIL! CHECK SPAM!", Toast.LENGTH_SHORT).show();
                             }
 
-                        }else {
+                        }
 
-                            Toast.makeText(Login.this, "Login failed!", Toast.LENGTH_SHORT).show();
+                    }
 
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        if (e instanceof FirebaseAuthInvalidCredentialsException) {
+                            mPassword.setError("Invalid password");
+                        } else if (e instanceof FirebaseAuthInvalidUserException) {
+                            mUsername.setError("Incorrect email address");
+                        } else {
+                            Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

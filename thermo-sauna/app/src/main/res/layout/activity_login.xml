@@ -57,6 +57,8 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="text"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
 
             />
 
@@ -67,7 +69,9 @@
             android:layout_marginTop="20dp"
             android:hint="@string/password"
             android:textColorHint="@color/black"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"/>
 
 
 
@@ -75,10 +79,11 @@
             android:id="@+id/Forgot_passw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:layout_marginTop="5dp"
             android:text="@string/forget_your_password"
             android:textColor="#FFFFFF"
-            android:onClick="forget"/>
+            android:onClick="forget"
+            />
 
 
     </LinearLayout>
@@ -100,15 +105,18 @@
             android:id="@+id/Login_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login" />
+            android:text="@string/login"
+            android:background="@drawable/rouned_corner_button"/>
 
         <Button
             android:id="@+id/Register_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:text="@string/register"
-            android:onClick="Register"/>
+            android:onClick="Register"
+            android:background="@drawable/rouned_corner_button"
+            android:backgroundTint="#FF347A"/>
 
 
     </LinearLayout>
