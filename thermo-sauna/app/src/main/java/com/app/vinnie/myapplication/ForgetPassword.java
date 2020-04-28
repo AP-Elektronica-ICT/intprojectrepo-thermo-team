@@ -55,7 +55,7 @@ public class ForgetPassword extends AppCompatActivity {
                             }
                             else{
                                 String errormessage = task.getException().getMessage();
-                                Toast.makeText(ForgetPassword.this,"error acquired" + errormessage,Toast.LENGTH_LONG).show();
+                                Toast.makeText(ForgetPassword.this,"error acquired, check if email is correct" + errormessage,Toast.LENGTH_LONG).show();
                             }
 
                         }

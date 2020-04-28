@@ -317,7 +317,7 @@
 
 
         </LinearLayout>
-        
+
     </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

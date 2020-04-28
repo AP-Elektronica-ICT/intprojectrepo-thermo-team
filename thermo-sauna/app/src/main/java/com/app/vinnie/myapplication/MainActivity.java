@@ -38,6 +38,8 @@ import com.google.firebase.firestore.Query;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
+import com.squareup.picasso.Picasso;
+
 import java.io.IOException;
 import java.time.Month;
 import java.util.ArrayList;
@@ -62,10 +64,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     List DataTemp;
 
     private TextView latituteField;
-    private TextView mDateTime;
+    private TextView mDateTime, msaunanameText;
     private TextView addressField; //Add a new TextView to your activity_main to display the address
     private LocationManager locationManager;
-    private String provider;
+    private String provider, mnamesauna;
+
 
 
     @Override
@@ -84,13 +87,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         Month = findViewById(R.id.buttonmonth);
         Week = findViewById(R.id.buttonWeek);
 
+        //user
 
-        //locatie
+
         addressField =  findViewById(R.id.locatie); //Make sure you add this to activity_main
 
         //calendar
         mDateTime = findViewById(R.id.DateTime);
-
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         Criteria criteria = new Criteria();
@@ -164,6 +167,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             }
         });
 
+
+
     }
 
     @Override
@@ -214,6 +219,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                     temp.setText(Temperature);
                     String aanUIT = Boolean.toString(Status);
                     status.setText(aanUIT);
+
+
+
                 }
             }
         });

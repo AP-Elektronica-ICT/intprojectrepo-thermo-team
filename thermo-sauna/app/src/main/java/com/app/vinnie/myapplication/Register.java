@@ -26,6 +26,7 @@ import com.google.firebase.database.core.Tag;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -40,7 +41,6 @@ public class Register extends AppCompatActivity {
     //Progressbar progressbar
     FirebaseFirestore mStore;
     String userID;
-    Boolean Agree = false;
     EditText mpolicy;
 
     @Override
@@ -95,10 +95,10 @@ public class Register extends AppCompatActivity {
                     mEmail.setError("this is not a valid e-mail");
                     return;
                 }
-                if (!valPhone(phoneNumber)){
-                    mPhoneNumber.setError(" this is not a valid phone number");
-                    return;
-                }
+             //   if (!valPhone(phoneNumber)){
+               //     mPhoneNumber.setError(" this is not a valid phone number");
+                 //   return;
+               // }
                 if (TextUtils.isEmpty(password)){
                     mPassword.setError("password is required");
                     return;
@@ -120,7 +120,7 @@ public class Register extends AppCompatActivity {
                 mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful() && Agree){
+                        if (task.isSuccessful()){
                             //versturen van verificatie email.
                             mAuth.getCurrentUser().sendEmailVerification();
                             Toast.makeText(Register.this, "USER CREATED.", Toast.LENGTH_SHORT).show();
@@ -142,6 +142,8 @@ public class Register extends AppCompatActivity {
                             user.put("Notifications", false);
                             user.put("SelectedSauna", "TestSauna");
                             user.put("Desired_Temp", 85);
+                            user.put("Saunas", Arrays.asList("TestSauna"));
+
                             //user.put("Saunas", );
 
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -181,9 +183,9 @@ public class Register extends AppCompatActivity {
 
     }
 
-    public boolean valPhone(String phoneIn){
-        return phoneIn.charAt(0) == '0' && phoneIn.charAt(1) == '4' && phoneIn.matches("[0-9]") && phoneIn.length() == 10;
-    }
+   // public boolean valPhone(String phoneIn){
+    //    return phoneIn.charAt(0) == '0' && phoneIn.charAt(1) == '4' && phoneIn.matches("[0-9]") && phoneIn.length() == 10;
+    //}
 
     public boolean valEmail(String email){
         return  email.matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$");
