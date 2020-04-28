@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
@@ -14,6 +16,8 @@ import android.widget.Toast;
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -35,13 +39,18 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
     boolean nightMode;
 
 
+    //farebase
+    FirebaseUser muser;
+    FirebaseAuth mAuth;
+    FirebaseFirestore mStore;
+
+    String userID;
+    DocumentReference noteRef;
+
     //Text and buttons
     Switch nightModeSw, notifySw;
+    Button saveTemperatuur;
     EditText desTempEdit;
-
-    //database ref
-    private FirebaseFirestore db= FirebaseFirestore.getInstance();
-    private DocumentReference noteRef = db.document("Users/Dries");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,15 +62,17 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
         desTempEdit=findViewById(R.id.DesiredTemp);
         notifySw=findViewById(R.id.Notifications);
         nightModeSw=findViewById(R.id.NightMode);
+        saveTemperatuur=findViewById(R.id.saveTemp);
 
         //set listeners for switches
         notifySw.setOnCheckedChangeListener(this);
         nightModeSw.setOnCheckedChangeListener(this);
 
-        //load settings at start
-        //loadSettings();
-
-
+        //init firebase
+        mStore = FirebaseFirestore.getInstance();
+        mAuth = FirebaseAuth.getInstance();
+        muser = FirebaseAuth.getInstance().getCurrentUser();
+        userID = mAuth.getCurrentUser().getUid();
 
         //set home selected
         mBottomnavigation.setSelectedItemId(R.id.settings);
@@ -95,6 +106,8 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
     @Override
     protected void onStart() {
         super.onStart();
+
+        noteRef = mStore.collection("Users").document(userID);
         noteRef.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
@@ -131,64 +144,37 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
                 }
             }
         });
-    }
 
-    /*public void loadSettings(){
-        ref= FirebaseDatabase.getInstance().getReference().child("Users").child("Dries");
-        ref.addValueEventListener(new ValueEventListener() {
+        saveTemperatuur.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                //get data on change
-                String notifStr=dataSnapshot.child("Notifications").getValue().toString();
-                notify=Boolean.parseBoolean(notifStr);
-
-                String nightStr=dataSnapshot.child("Nightmode").getValue().toString();
-                nightMode=Boolean.parseBoolean(nightStr);
-
-                String tempStr=dataSnapshot.child("Desired_Temp").getValue().toString();
-                desiredTemp=Integer.parseInt(tempStr);
-
-                //change data
-                if (notify==true){
-                    notifySw.setChecked(true);
-                }
-                if (notify==false){
-                    notifySw.setChecked(false);
-                }
-                if (nightMode==true){
-                    nightModeSw.setChecked(true);
-                }
-                if (nightMode==false){
-                    nightModeSw.setChecked(false);
-                }
-
-                desTempEdit.setText(desiredTemp);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
+            public void onClick(View v) {
+                String saveTempStr = desTempEdit.getText().toString();
+                Double tempSaveVal = Double.parseDouble(saveTempStr);
+                noteRef.update("Desired_Temp", tempSaveVal);
             }
         });
     }
-*/
+
+
 
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         if (notifySw.isChecked()){
             notify=true;
+            noteRef.update("Notifications",true);
         }
         else{
             notify=false;
+            noteRef.update("Notifications",false);
         }
         if (nightModeSw.isChecked()){
             nightMode=true;
+            noteRef.update("Nightmode",true);
         }
         else{
             nightMode=false;
+            noteRef.update("Nightmode",false);
         }
-
 
     }
 }

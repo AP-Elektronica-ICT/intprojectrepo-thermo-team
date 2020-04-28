@@ -32,14 +32,28 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-        <activity android:name="com.app.vinnie.myapplication.Login" />
-        <activity android:name="com.app.vinnie.myapplication.SaunaList" />
-        <activity android:name="com.app.vinnie.myapplication.Settings" />
+        <activity
+            android:name="com.app.vinnie.myapplication.Login"
+            android:noHistory="true" />
+        <activity
+            android:name="com.app.vinnie.myapplication.SaunaList"
+            android:noHistory="true" />
+        <activity
+            android:name="com.app.vinnie.myapplication.Settings"
+            android:noHistory="true" />
         <activity android:name="com.app.vinnie.myapplication.Profile" />
-        <activity android:name="com.app.vinnie.myapplication.Register" />
-        <activity android:name="com.app.vinnie.myapplication.MainActivity" />
-        <activity android:name="com.app.vinnie.myapplication.ForgetPassword" />
-        <activity android:name="com.app.vinnie.myapplication.Startscreen" >
+        <activity
+            android:name="com.app.vinnie.myapplication.Register"
+            android:noHistory="true" />
+        <activity
+            android:name="com.app.vinnie.myapplication.MainActivity"
+            android:noHistory="true" />
+        <activity
+            android:name="com.app.vinnie.myapplication.ForgetPassword"
+            android:noHistory="true" />
+        <activity
+            android:name="com.app.vinnie.myapplication.Startscreen"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

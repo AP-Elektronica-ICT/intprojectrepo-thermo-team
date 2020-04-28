@@ -68,7 +68,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="120dp"
             android:inputType="number"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/saveTemp"
             app:layout_constraintStart_toEndOf="@+id/DesiredTempText"
             app:layout_constraintTop_toBottomOf="@+id/Settings" />
 
@@ -89,6 +89,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/NightModeText"
             app:layout_constraintTop_toBottomOf="@+id/Notifications" />
+
+        <Button
+            android:id="@+id/saveTemp"
+            android:layout_width="63dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="120dp"
+            android:text="Save"
+            android:background="@drawable/rouned_corner_button"
+            android:backgroundTint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/DesiredTemp"
+            app:layout_constraintTop_toBottomOf="@+id/Settings" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
