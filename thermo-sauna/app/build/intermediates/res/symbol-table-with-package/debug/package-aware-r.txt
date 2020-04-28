@@ -583,6 +583,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr shapeAppearance
 attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
@@ -923,6 +927,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1264,6 +1269,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1410,6 +1419,7 @@ drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
 drawable ic_mtrl_checked_circle
@@ -1457,12 +1467,15 @@ font bungee
 font montserrat
 font montserrat_alternates
 id ALT
+id AVG1
+id AVGTIMES
 id AlreadyHaveAccount
 id BOTTOM_END
 id BOTTOM_START
 id ButtonDelete
 id ButtonLogout
 id CTRL
+id DateTime
 id DesiredTemp
 id DesiredTempText
 id EmailForgetPass
@@ -1489,6 +1502,7 @@ id SYM
 id Settings
 id TOP_END
 id TOP_START
+id TempAVG
 id UnameRegis
 id UsernameLogin
 id accessibility_action_clickable_span
@@ -1524,6 +1538,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1560,6 +1575,10 @@ id blurLayoutPhone
 id bottom
 id bottom_navigation
 id buttonPanel
+id buttonWeek
+id buttonmonth
+id buttonyear
+id cancel_action
 id cancel_button
 id center
 id center_horizontal
@@ -1598,6 +1617,7 @@ id disableHome
 id dropdown_menu
 id edit_query
 id end
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -1614,11 +1634,11 @@ id filter_chip
 id fitToContents
 id fixed
 id forever
-id getlocation
 id ghost_view
 id ghost_view_holder
 id gone
 id googleicon
+id grafiek
 id group_divider
 id groups
 id hideable
@@ -1641,9 +1661,10 @@ id line1
 id line3
 id listMode
 id list_item
-id locatielocaite
+id locatie
 id mailIcon
 id masked
+id media_actions
 id message
 id middle
 id mini
@@ -1708,6 +1729,7 @@ id right_icon
 id right_side
 id rounded
 id saunaList
+id saunaName
 id saveTemp
 id save_non_transition_alpha
 id save_overlay_view
@@ -1751,6 +1773,8 @@ id src_in
 id src_over
 id standard
 id start
+id status
+id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
@@ -1763,6 +1787,8 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id temp
+id tempdata
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1771,11 +1797,16 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView10
+id textView11
+id textView12
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id tijd
 id time
 id title
 id titleDividerNoCustom
@@ -1797,8 +1828,11 @@ id useLogo
 id userEmail_Textview
 id usernameIcon
 id username_Textview
+id view2
+id view3
 id view_offset_helper
 id visible
+id vuur
 id wide
 id withText
 id wrap
@@ -1918,8 +1952,17 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -1942,6 +1985,7 @@ menu menu_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string aan
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2000,6 +2044,7 @@ string common_signin_button_text_long
 string default_web_client_id
 string delete_acoount
 string don_t_have_an_account_yet
+string duration
 string e_mail
 string edit
 string error_icon_content_description
@@ -2023,6 +2068,7 @@ string list
 string login
 string logout
 string mailicon
+string month
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2074,14 +2120,17 @@ string register
 string repeat_password
 string reset_password
 string search_menu_title
+string session_avg
 string settings
 string signup_know
 string status_bar_notification_info_overflow
 string submit
+string temperature
 string terms_and_conditions_privacy_policy
 string thermo_sauna
 string twitter_logo
 string username
+string week
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -2425,9 +2474,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -2801,6 +2855,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
