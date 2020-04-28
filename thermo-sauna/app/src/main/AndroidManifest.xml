@@ -17,14 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Login" />
-        <activity android:name=".SaunaList" />
-        <activity android:name=".Settings" />
+        <activity android:name=".Login" android:noHistory="true"/>
+        <activity android:name=".SaunaList" android:noHistory="true" />
+        <activity android:name=".Settings" android:noHistory="true" />
         <activity android:name=".Profile" />
-        <activity android:name=".Register" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ForgetPassword" />
-        <activity android:name=".Startscreen">
+        <activity android:name=".Register"  android:noHistory="true"/>
+        <activity android:name=".MainActivity"  android:noHistory="true"/>
+        <activity android:name=".ForgetPassword"  android:noHistory="true"/>
+        <activity android:name=".Startscreen" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
