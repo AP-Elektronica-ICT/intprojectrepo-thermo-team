@@ -53,7 +53,7 @@
             android:id="@+id/UsernameLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/username"
+            android:hint="@string/e_mail"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="text"

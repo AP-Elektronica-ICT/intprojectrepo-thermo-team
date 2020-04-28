@@ -30,8 +30,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
@@ -121,8 +119,6 @@ public class Login extends AppCompatActivity {
                         if (task.isSuccessful()){
                             //verification email
                             if(mAuth.getCurrentUser().isEmailVerified()){
-
-                                Toast.makeText(Login.this, "Login works!.", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             }
                             else {
@@ -181,10 +177,8 @@ public class Login extends AppCompatActivity {
         try {
             GoogleSignInAccount acc = completedTask.getResult(ApiException.class);
             FirebaseGoogleAuth(acc);
-            Toast.makeText(Login.this, "Google Sign in Works!", Toast.LENGTH_SHORT).show();
         }
         catch (ApiException e){
-            Toast.makeText(Login.this, "Google Sign in Works!", Toast.LENGTH_SHORT).show();
             FirebaseGoogleAuth(null);
 
         }
@@ -201,7 +195,6 @@ public class Login extends AppCompatActivity {
                     updateUI(user);
                 }
                 else {
-                    Toast.makeText(Login.this, " Successful!", Toast.LENGTH_SHORT).show();
 
                 }
             }
@@ -244,8 +237,6 @@ public class Login extends AppCompatActivity {
                 }
             });
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
-
-            Toast.makeText(Login.this, userID, Toast.LENGTH_SHORT).show();
 
 
         }

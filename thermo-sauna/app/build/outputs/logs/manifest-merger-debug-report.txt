@@ -1,14 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ede29bba6ca2761c470b43c256e4a9da\material-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:21:1-52:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d3b6ea0458196941bc2a135f5829d875\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f182f53886c31db0398e9ff875a38a4a\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0bc5034e9f61b269285824a65f4f6cae\firebase-core-17.3.0\AndroidManifest.xml:2:1-9:12
@@ -22,6 +18,7 @@ MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\phili\.gradle\caches
 MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc0e62dd5e92daabfdfa1114aa61fcac\firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c3ecc4720f76be356e0f786953b55f12\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fe48cbf741860a7fa83d5945ef094cae\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\49117a355909701fe97fccd03bec6c1c\firebase-iid-20.0.2\AndroidManifest.xml:17:1-47:12
@@ -33,13 +30,11 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\phili\.gr
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e4a1dbb667c3e0e93acd41fd27a1cd33\play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5922e099ed51ba938cb9b75aa50881d3\play-services-measurement-sdk-api-17.3.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ee64a9e0d2d05918fc9e129d118171f8\play-services-measurement-base-17.3.0\AndroidManifest.xml:2:1-9:12
@@ -51,10 +46,6 @@ MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\phili\.gradle\caches\tra
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\03991f7d254c34b23ce89effd35e3d7d\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\829eeaf4e29ab34748c61dde9699c893\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2b53143ebf0101f7fbbe01c5eb0c038\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:21:1-53:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ea06e667ca94ac150edc826bc6d4a962\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\3a4968f1a0653083b07f66dfe10030d0\loader-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -67,11 +58,7 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\phili\.gradl
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\17981ae6e16193afcdef72c01f5d68d3\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e23ed541f8228975cb7801b7386b99a6\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1d6395085da05653bf51ce13b6ac92a9\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\70d800183cb48aaafea1a47797e7080f\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -85,21 +72,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\phili\.g
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1dd23a4072c15289dfa2bb4368218d36\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6d2b4b9d6098a31ced9640e21e6a9682\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5513debf442e851b5f83c9769bbbf8f9\grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:2:11-69
@@ -131,18 +117,18 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:9:5-34:19
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:5-38:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ede29bba6ca2761c470b43c256e4a9da\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ede29bba6ca2761c470b43c256e4a9da\material-1.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:29:5-50:19
-MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:29:5-50:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f182f53886c31db0398e9ff875a38a4a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f182f53886c31db0398e9ff875a38a4a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0bc5034e9f61b269285824a65f4f6cae\firebase-core-17.3.0\AndroidManifest.xml:7:5-20
@@ -163,6 +149,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\phili\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c3ecc4720f76be356e0f786953b55f12\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c3ecc4720f76be356e0f786953b55f12\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fe48cbf741860a7fa83d5945ef094cae\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
@@ -181,6 +169,8 @@ MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\p
 MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e4a1dbb667c3e0e93acd41fd27a1cd33\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e4a1dbb667c3e0e93acd41fd27a1cd33\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ee64a9e0d2d05918fc9e129d118171f8\play-services-measurement-base-17.3.0\AndroidManifest.xml:7:5-20
@@ -193,96 +183,78 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ee9e8ac167cd22b7b688d74196ee391b\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:28:5-51:19
-MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:28:5-51:19
 MERGED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:12:9-37
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-37
 	android:roundIcon
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:11:9-38
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-38
 	android:allowBackup
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:15:9-59
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-59
 activity#com.app.vinnie.myapplication.Login
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:9-43
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-43
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:16:19-40
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
 activity#com.app.vinnie.myapplication.SaunaList
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:9-47
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:9-47
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:17:19-44
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:19-44
 activity#com.app.vinnie.myapplication.Settings
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:9-46
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:9-46
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:18:19-43
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:19-43
 activity#com.app.vinnie.myapplication.Profile
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-45
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:9-45
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:19-42
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-42
 activity#com.app.vinnie.myapplication.Register
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-46
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:9-46
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-43
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-43
 activity#com.app.vinnie.myapplication.MainActivity
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:9-50
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:19-47
 activity#com.app.vinnie.myapplication.ForgetPassword
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:9-52
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:19-49
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:19-49
 activity#com.app.vinnie.myapplication.Startscreen
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-46
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:19-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:31:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:31:9-33:57
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:35:9-37:57
 	android:resource
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:33:13-54
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:37:13-54
 	android:name
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:32:13-43
+		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:36:13-43
 uses-sdk
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ede29bba6ca2761c470b43c256e4a9da\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ede29bba6ca2761c470b43c256e4a9da\material-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\debfd586309f61e18904d204621896f0\facebook-android-sdk-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e8e80c51c95171634dbb804d7bb76826\jetified-facebook-login-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b9e3f79c591377ff707f417d4c19880\jetified-facebook-share-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:25:5-27:41
-MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:25:5-27:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d3b6ea0458196941bc2a135f5829d875\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d3b6ea0458196941bc2a135f5829d875\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f182f53886c31db0398e9ff875a38a4a\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -309,6 +281,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\phili\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dd75417cadd4979f5b734a7783474313\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0b5dcb7cb2803a7e4a8ced48aeffda58\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c3ecc4720f76be356e0f786953b55f12\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c3ecc4720f76be356e0f786953b55f12\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\34998ee02ead8cf756a1f234a668c435\play-services-measurement-api-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fe48cbf741860a7fa83d5945ef094cae\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
@@ -331,12 +305,6 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7d70f62666a2115db3fe7884be419c5d\browser-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a49536e36fbe49d59a6b2b14c5782e2e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -345,6 +313,8 @@ MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\p
 MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e4a1dbb667c3e0e93acd41fd27a1cd33\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e4a1dbb667c3e0e93acd41fd27a1cd33\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5922e099ed51ba938cb9b75aa50881d3\play-services-measurement-sdk-api-17.3.0\AndroidManifest.xml:20:5-44
@@ -367,14 +337,6 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\ca
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\829eeaf4e29ab34748c61dde9699c893\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2b53143ebf0101f7fbbe01c5eb0c038\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2b53143ebf0101f7fbbe01c5eb0c038\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\7e0fcd4963ffb7732d57c4535aba79b8\facebook-places-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4ce0e4fb527ac814b4230ea84a0c1173\jetified-facebook-applinks-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\acb2b510c1408edeab9a4974f29cd648\facebook-messenger-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a750d4aa819b9e273651c608932353b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ea06e667ca94ac150edc826bc6d4a962\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -399,16 +361,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\t
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5a36e67a940c8e451912b149a78d94cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e23ed541f8228975cb7801b7386b99a6\activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e23ed541f8228975cb7801b7386b99a6\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1d6395085da05653bf51ce13b6ac92a9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\1d6395085da05653bf51ce13b6ac92a9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\aefb0983afeb313e8377e0e73e0e8098\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\4692ae5559a4e6ccb5fe18891746edb4\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6a8738b73f5b8442bca0ff7c8a020f86\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f90f48999f7bf556182ff7a193a840cd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.2.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fa39e006d05b052a329c9da7ac7a031a\core-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\23aac9beb02e24a9053c4151f5b4bdc9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -435,8 +389,6 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\phi
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\6d2b4b9d6098a31ced9640e21e6a9682\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5513debf442e851b5f83c9769bbbf8f9\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5513debf442e851b5f83c9769bbbf8f9\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -447,48 +399,6 @@ INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\i
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
-activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
-	tools:node
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:38:13-31
-	android:exported
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.app.vinnie.myapplication+data:scheme:fbconnect
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
-action#android.intent.action.VIEW
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:17-76
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
-	android:name
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
-data
-ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:45:17-47:50
-	android:host
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:46:21-56
-	android:scheme
-		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\a5d45d4776803f3dbdd95c456385a9ca\jetified-facebook-common-5.15.3\AndroidManifest.xml:47:21-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\fbeebf02ecf9bd694e298cfdd1def979\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\dc0e62dd5e92daabfdfa1114aa61fcac\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
@@ -661,8 +571,6 @@ uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_S
 ADDED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:26:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c67fcc9db1d46006f19a8dd90cda27dd\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
@@ -715,23 +623,3 @@ ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili
 		ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\d28aaa9399e1d864456c361fa1dcb006\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
-receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
-intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
-action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
-	android:name
-		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\ccb3b6b14aaf94b19dc4f8987cef2bc7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92

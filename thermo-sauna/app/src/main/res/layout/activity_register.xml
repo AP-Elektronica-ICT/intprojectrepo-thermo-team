@@ -18,6 +18,18 @@
         android:layout_marginStart="140dp"
         android:orientation="vertical">
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginBottom="90dp"
+            android:textColor="@color/black"
+            />
+
         <EditText
             android:id="@+id/UnameRegis"
             android:layout_width="match_parent"
