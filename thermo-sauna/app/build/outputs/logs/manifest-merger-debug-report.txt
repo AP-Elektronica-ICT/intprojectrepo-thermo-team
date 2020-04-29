@@ -31,6 +31,7 @@ MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.g
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f776dd3e92e1ced94013b23e77497b5c\jetified-graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f6030cf55d41da99774940530e9664e8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -118,6 +119,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] C:
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -174,6 +177,8 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.
 MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\8fd19aa8bd2c9e648feba8c7c6682a09\play-services-tasks-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f776dd3e92e1ced94013b23e77497b5c\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f776dd3e92e1ced94013b23e77497b5c\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\c90910e3559940f7b0b3f907e3546650\play-services-measurement-sdk-17.3.0\AndroidManifest.xml:22:5-23:19
@@ -211,21 +216,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ph
 	android:theme
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:19:9-59
 activity#com.app.vinnie.myapplication.Login
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-67
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:41-65
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:9-43
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:20:19-40
 activity#com.app.vinnie.myapplication.SaunaList
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:9-72
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:45-69
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:9-48
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:21:19-44
 activity#com.app.vinnie.myapplication.Settings
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:9-71
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:44-68
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:9-47
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:22:19-43
 activity#com.app.vinnie.myapplication.Profile
@@ -233,27 +232,19 @@ ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intp
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:23:19-42
 activity#com.app.vinnie.myapplication.Register
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:9-71
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:44-68
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:9-46
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:24:19-43
 activity#com.app.vinnie.myapplication.MainActivity
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-75
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:49-73
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:9-51
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:25:19-47
 activity#com.app.vinnie.myapplication.ForgetPassword
-ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:9-77
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:50-74
+ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:9-53
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:26:19-49
 activity#com.app.vinnie.myapplication.Startscreen
 ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:9-33:20
-	android:noHistory
-		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:47-71
 	android:name
 		ADDED from C:\Users\phili\OneDrive\AP\2e\2e trimester\international project\intprojectrepo-thermo-team\thermo-sauna\app\src\main\AndroidManifest.xml:27:19-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -330,6 +321,8 @@ MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\tra
 MERGED from [io.alterac.blurkit:blurkit:1.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f713b29315811e26e77d2d4f358a7a85\blurkit-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f776dd3e92e1ced94013b23e77497b5c\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\f776dd3e92e1ced94013b23e77497b5c\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\9e816a636af6c63df2efc26e26038203\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\b19cd9312db74d34c0bcfd422c25d814\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
@@ -604,6 +597,56 @@ ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gr
 		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\0897e8f941a5d0a6bb4abc77e94f9b6e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\e2eb623a45ffdd3500442885159f3a01\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\5602fa620ed20663484cf5ebcb51dbed\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] C:\Users\phili\.gradle\caches\transforms-2\files-2.1\97e1bc46c8fd457cfadf57dee3f0d154\play-services-measurement-impl-17.3.0\AndroidManifest.xml:26:5-110

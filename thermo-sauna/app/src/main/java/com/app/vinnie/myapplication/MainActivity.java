@@ -5,6 +5,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -246,6 +247,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         locationManager.removeUpdates(this);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onLocationChanged(Location location) {
         //You had this as int. It is advised to have Lat/Loing as double.
@@ -265,9 +267,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             builder.append(addressStr);
             builder.append(country);
 
+
             String fnialAddress = builder.toString(); //
             Toast.makeText(MainActivity.this, fnialAddress, Toast.LENGTH_SHORT).show();
             addressField.setText(country + ", " + addressStr); //This will display the final address.
+
 
 
 

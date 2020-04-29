@@ -168,7 +168,6 @@ private static final int IMAGE_PICK_CAMERA_CODE = 400;
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.profile:
-
                         return true;
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext(), Settings.class));

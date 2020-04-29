@@ -79,16 +79,22 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
                     case R.id.home:
+                        finishAffinity();
+
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.profile:
+                        finishAffinity();
+
                         startActivity(new Intent(getApplicationContext(), Profile.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.settings:
                         return true;
                     case R.id.saunaList:
+                        finishAffinity();
+
                         startActivity(new Intent(getApplicationContext(), SaunaList.class));
                         overridePendingTransition(0,0);
                         return true;
